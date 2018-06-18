@@ -6,9 +6,9 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Stfout 
+title:            stf x clv
 tagline:          'A Jekyll theme, with instant search'
-description:      'The popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde theme</a> for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, now with instant-search capabilities. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a>'
+description:      'My Knowledge Base on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde theme</a> for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>,with instant-search capabilities. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a>'
 url:              https://github.com/algolia/algoliasearch-jekyll-hyde
 #baseurl:          /algoliasearch-jekyll-hyde
 baseurl:	  '/'
@@ -17,12 +17,12 @@ baseurl:	  '/'
 exclude:          [vendor]
 
 author:
-  name:           'Algolia'
-  url:            https://www.algolia.com/
+  name:           'Stephen Clairville'
+  url:            https://www.stephenclairville.com/
 # Thanks to @mdo for the original theme
 # author:
-#   name:           'Mark Otto'
-#   url:            https://twitter.com/mdo
+#   name:           'Stephen Clairville'
+#   url:            https://twitter.com/stefun_
 
 paginate:         5
 
