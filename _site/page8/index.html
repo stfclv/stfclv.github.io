@@ -11,43 +11,43 @@
 
   <title>
     
-      stf x clv &middot; A Jekyll theme, with instant search
+      stf &bull; out &middot; KB with instant search
     
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="//public/css/poole.css">
-  <link rel="stylesheet" href="//public/css/syntax.css">
-  <link rel="stylesheet" href="//public/css/hyde.css">
-  <link rel="stylesheet" href="//public/css/algolia.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/poole.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/syntax.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/hyde.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/algolia.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="//public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/stfclv.github.io/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/stfclv.github.io/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
 
-  <body class="theme-base-09">
+  <body class="theme-base-08">
 
     <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="//">
-          stf x clv
+        <a href="/stfclv.github.io/">
+          stf &bull; out
         </a>
       </h1>
-      <p class="lead">My Knowledge Base on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde theme</a> for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>,with instant-search capabilities. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a></p>
+      <p class="lead">My personal knowledge base, blog notes and thoughts on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde</a> &hearts; <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Made by <a href="https://twitter.com/stefun_" target="_blank">@stefun_</a>, Solutions Architect <a href="http://www.cloudera.com" target="_blank">@Cloudera</a>.</a></p>
     </div>
 
     <input type="text" class="algolia__input js-algolia__input" autocomplete="off" name="query" placeholder="Search in this site..." />
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="//">Home</a>
+      <a class="sidebar-nav-item" href="/stfclv.github.io/">Home</a>
 
       
 
@@ -59,13 +59,25 @@
       
         
           
-          <a class="sidebar-nav-item" href="//about/">About</a>
+          <a class="sidebar-nav-item" href="/stfclv.github.io/about/">About</a>
           
         
       
         
       
         
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/stfclv.github.io/security/">Security</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/stfclv.github.io/tricks/">Trixx</a>
           
         
       
@@ -130,11 +142,11 @@
         
       
 
-      <a class="sidebar-nav-item" href="https://github.com/algolia/algoliasearch-jekyll-hyde">GitHub project</a>
+      <a class="sidebar-nav-item" href="https://github.com/stfclv/stfclv.github.io">GitHub project</a>
       <span class="sidebar-nav-item">Currently v2.1.0</span>
     </nav>
 
-    <p>&copy; 2018. All rights reserved.</p>
+    <p>&copy; 2018. All rights reserved. Original by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a>.</p>
   </div>
 </div>
 
@@ -144,7 +156,207 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="//2013/07/18/our-search-as-a-service-offer-has-now-10-api-clients/">
+      <a href="/stfclv.github.io/2014/01/06/improving-ranking-twitter-handles-search/">
+        Improving Search for Twitter Handles
+      </a>
+    </h1>
+
+    <span class="post-date">06 Jan 2014</span>
+
+    <p>Hello Twitter,</p>
+
+<p>I have been using your service for awhile, and I love it!</p>
+
+<p>At first, I was skeptical about what you could offer: Broadcasting to all my
+friends that I was eating a pizza, or taking a walk, is not really my cup of
+tea. But 3 years ago I figured out what Twitter was really meant for and how
+it could help me in a totally different way from what I first thought:</p>
+
+<ul>
+<li>sharing interesting articles,</li>
+<li>checking if /replace by the service provider you want/ is down,</li>
+<li>or catching up on HackerNews.</li>
+</ul>
+
+<p>More recently, I discovered you had a feature that could help me even more: I
+can now ask for support by tweeting. Tweeting is often faster and more
+productive than sending an email. You taught me to include the recipient&#39;s
+Handle in my tweets, and your current Handle auto-completion implementation
+works pretty well: but what if you could provide a <strong>better typo-tolerance and
+ranking</strong>? (I&#39;m NOT speaking about your official OSX/iOS native clients and
+its <a href="http://blog.algolia.com/why-autocomplete-in-twitter-on-mobile-sucks/">totally unusable auto-completion feature</a>... btw, could you explain me why it
+is different from the one on your website?).</p>
+
+<p>I have been leading a search-engine development team over the last 5 years and
+I&#39;m now VP of engineering at Algolia. I am aware that considering my job, I
+have kind of an &quot;expert&quot; point of view about search. But search has become so
+essential that I am convinced it <strong>must</strong> be irreproachable. Did you know
+that 1.7M+ people are currently following</p>
+
+<p>expecting great things from your search-engine, Twitter :) Here is how I would
+improve search for Twitter handles:</p>
+
+<p>For example, it would be nice if I could find President
+<a href="https://twitter.com/barackobama">@barackobama</a> with his last name:</p>
+
+<p><a href="https://blog.algolia.com/wp-%0Acontent/uploads/2013/12/Screen-Shot-2013-12-23-at-11.40.09.png"><img src="/algoliasearch-jekyll-hyde/assets/Screen-Shot-2013-12-23-at-11.40.09-263x300.png" alt="Search for Twitter handles including @obama yields less-than-stellar
+results."></a></p>
+
+<p>Same for Justin:</p>
+
+<p><a href="https://blog.algolia.com/wp-%0Acontent/uploads/2013/12/Screen-Shot-2013-12-23-at-11.42.01.png"><img src="/algoliasearch-jekyll-hyde/assets/Screen-Shot-2013-12-23-at-11.42.01-262x300.png" alt="Search for Twitter handles that could be Justin Bieber&#39;s yields less-than-
+stellar results."></a></p>
+
+<p>Typo-tolerance is now a must-have, especially because we&#39;re all using
+smartphones and tablets:</p>
+
+<p><a href="https://blog.algolia.com/wp-%0Acontent/uploads/2013/12/Screen-Shot-2013-12-23-at-11.38.19.png"><img src="/algoliasearch-jekyll-hyde/assets/Screen-Shot-2013-12-23-at-11.38.19-263x300.png" alt="Search for Twitter handles should have typo tolerance."></a></p>
+
+<p>More and more handles are now prefixed/suffixed by &quot;official&quot;, which makes
+finding <a href="https://twitter.com/officialadele">@OfficialAdele</a> just impossible:</p>
+
+<p><a href="https://blog.algolia.com/wp-content/uploads/2013/12/Screen-Shot-2013-12-23-at-11.47.52.png"><img src="/algoliasearch-jekyll-hyde/assets/Screen-Shot-2013-12-23-at-11.47.52.png" alt="Search for Twitter handles that start with @official is broken."></a></p>
+
+<p><strong>For sure we can improve it, let&#39;s code!</strong></p>
+
+<p>First of all Twitter, I need your Handles database :)</p>
+
+<ul>
+<li>I used your <a href="https://dev.twitter.com/docs/streaming-apis">Streaming API</a> to crawl about 20M+ accounts in ~2 weeks: it&#39;s not blazing fast but I must admit it does the job (and it&#39;s free). That&#39;s about 5 lines of Ruby with <a href="https://github.com/tweetstream/tweetstream">TweetStream</a>, good job guys!</li>
+<li>and <a href="https://github.com/bmc/daemonize">Daemonize</a> to create a bin/crawler executable.</li>
+</ul>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="ch">#! /usr/bin/env ruby</span>
+
+<span class="nb">require</span> <span class="no">File</span><span class="o">.</span><span class="n">expand_path</span><span class="p">(</span><span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">File</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="bp">__FILE__</span><span class="p">),</span> <span class="s1">&#39;..&#39;</span><span class="p">,</span> <span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="s1">&#39;environment&#39;</span><span class="p">))</span>
+
+<span class="n">daemon</span> <span class="o">=</span> <span class="no">TweetStream</span><span class="o">::</span><span class="no">Daemon</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s1">&#39;crawler&#39;</span><span class="p">,</span> <span class="ss">:log_output</span> <span class="o">=&gt;</span> <span class="kp">true</span><span class="p">)</span>
+<span class="n">daemon</span><span class="o">.</span><span class="n">on_inited</span> <span class="k">do</span>
+  <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span><span class="o">.</span><span class="n">connection</span><span class="o">.</span><span class="n">reconnect!</span>
+  <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span><span class="o">.</span><span class="n">logger</span> <span class="o">=</span> <span class="no">Logger</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">Rails</span><span class="o">.</span><span class="n">root</span><span class="p">,</span> <span class="s1">&#39;log/stream.log&#39;</span><span class="p">),</span> <span class="s1">&#39;w+&#39;</span><span class="p">)</span>
+<span class="k">end</span>
+<span class="n">daemon</span><span class="o">.</span><span class="n">on_error</span> <span class="k">do</span> <span class="o">|</span><span class="n">message</span><span class="o">|</span>
+  <span class="nb">puts</span> <span class="s2">&quot;Error: </span><span class="si">#{</span><span class="n">message</span><span class="si">}</span><span class="s2">&quot;</span>
+<span class="k">end</span>
+<span class="n">daemon</span><span class="o">.</span><span class="n">sample</span> <span class="k">do</span> <span class="o">|</span><span class="n">status</span><span class="o">|</span>
+  <span class="no">Handle</span><span class="o">.</span><span class="n">create_from_status</span><span class="p">(</span><span class="n">status</span><span class="p">)</span>
+<span class="k">end</span>
+</code></pre></div>
+<p>For each new tweet you send to me, I store the author (name + screen<em>name +
+description + followers</em>count) and all his/her user mentions.</p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">class</span> <span class="nc">Handle</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+
+  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">create_from_user</span><span class="p">(</span><span class="n">user</span><span class="p">)</span>
+    <span class="n">h</span> <span class="o">=</span> <span class="no">Handle</span><span class="o">.</span><span class="n">find_or_initialize_by</span><span class="p">(</span><span class="ss">screen_name</span><span class="p">:</span> <span class="n">user</span><span class="o">.</span><span class="n">screen_name</span><span class="p">)</span>
+    <span class="nb">puts</span> <span class="n">h</span><span class="o">.</span><span class="n">screen_name</span> <span class="k">if</span> <span class="n">h</span><span class="o">.</span><span class="n">new_record?</span>
+    <span class="n">h</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">user</span><span class="o">.</span><span class="n">name</span>
+    <span class="n">h</span><span class="o">.</span><span class="n">description</span> <span class="o">=</span> <span class="p">(</span><span class="n">user</span><span class="o">.</span><span class="n">description</span> <span class="o">||</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">[</span><span class="mi">0</span><span class="o">..</span><span class="mi">255</span><span class="o">]</span>
+    <span class="n">h</span><span class="o">.</span><span class="n">followers_count</span> <span class="o">=</span> <span class="n">user</span><span class="o">.</span><span class="n">followers_count</span>
+    <span class="n">h</span><span class="o">.</span><span class="n">updated_at</span> <span class="o">||=</span> <span class="no">DateTime</span><span class="o">.</span><span class="n">now</span>
+    <span class="n">h</span><span class="o">.</span><span class="n">save</span>
+    <span class="n">h</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">create_from_status</span><span class="p">(</span><span class="n">status</span><span class="p">)</span>
+    <span class="no">Handle</span><span class="o">.</span><span class="n">create_from_user</span><span class="p">(</span><span class="n">status</span><span class="o">.</span><span class="n">user</span><span class="p">)</span>
+    <span class="n">status</span><span class="o">.</span><span class="n">user_mentions</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">mention</span><span class="o">|</span>
+      <span class="n">m</span> <span class="o">=</span> <span class="no">Handle</span><span class="o">.</span><span class="n">find_or_initialize_by</span><span class="p">(</span><span class="ss">screen_name</span><span class="p">:</span> <span class="n">mention</span><span class="o">.</span><span class="n">screen_name</span><span class="p">)</span>
+      <span class="n">m</span><span class="o">.</span><span class="n">updated_at</span> <span class="o">||=</span> <span class="no">DateTime</span><span class="o">.</span><span class="n">now</span>
+      <span class="n">m</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">mention</span><span class="o">.</span><span class="n">name</span>
+      <span class="n">m</span><span class="o">.</span><span class="n">mentions_count</span> <span class="o">||=</span> <span class="mi">0</span>
+      <span class="n">m</span><span class="o">.</span><span class="n">mentions_count</span> <span class="o">+=</span> <span class="mi">1</span>
+      <span class="n">m</span><span class="o">.</span><span class="n">save</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</code></pre></div>
+<p>And every minute, I re-index the last-updated accounts with a batch request
+using <a href="https://github.com/algolia/algoliasearch-rails">algoliasearch-rails</a>,</p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="n">every</span> <span class="mi">1</span><span class="o">.</span><span class="n">minute</span><span class="p">,</span> <span class="ss">roles</span><span class="p">:</span> <span class="o">[</span><span class="ss">:cron</span><span class="o">]</span> <span class="k">do</span>
+  <span class="n">runner</span> <span class="s2">&quot;Handle.where(&#39;updated_at &gt;= ?&#39;, 1.minute.ago).reindex!&quot;</span>
+<span class="k">end</span>
+</code></pre></div>
+<p>The result order is based on several criteria:</p>
+
+<ul>
+<li>the number of typos,</li>
+<li>the matching attributes: the name/handle is more important than the description,</li>
+<li>the proximity between matched words,</li>
+<li>and the followers count (I also use the &quot;mentions count&quot; if my crawler didn&#39;t get the followers count yet).</li>
+</ul>
+
+<p>I could have improved the results by using the user&#39;s list of
+followers/following but I was limited by your <a href="https://dev.twitter.com/docs/rate-limiting/1.1">Rate
+Limits</a>. <strong>Instead, I chose to
+emphasize your top-users </strong>(accounts having 10M+ followers).</p>
+
+<p>Here is the configuration I used</p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">class</span> <span class="nc">Handle</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+
+  <span class="kp">include</span> <span class="no">AlgoliaSearch</span>
+  <span class="n">algoliasearch</span> <span class="ss">per_environment</span><span class="p">:</span> <span class="kp">true</span><span class="p">,</span> <span class="ss">auto_index</span><span class="p">:</span> <span class="kp">false</span><span class="p">,</span> <span class="ss">auto_remove</span><span class="p">:</span> <span class="kp">false</span> <span class="k">do</span>
+    <span class="c1"># add an extra score attribute</span>
+    <span class="n">add_attribute</span> <span class="ss">:score</span>
+
+    <span class="c1"># add an extra full_name attribute: screen_name + name</span>
+    <span class="n">add_attribute</span> <span class="ss">:full_name</span>
+
+    <span class="c1"># do not take `full_name`&#39;s words order into account, `full_name` is more important than `description`</span>
+    <span class="n">attributesToIndex</span> <span class="o">[</span><span class="s1">&#39;unordered(full_name)&#39;</span><span class="p">,</span> <span class="ss">:description</span><span class="o">]</span>
+
+    <span class="c1"># list of attributes to highlight</span>
+    <span class="n">attributesToHighlight</span> <span class="o">[</span><span class="ss">:screen_name</span><span class="p">,</span> <span class="ss">:name</span><span class="p">,</span> <span class="ss">:description</span><span class="o">]</span>
+
+    <span class="c1"># use followers_count OR mentions_count to sort results (last sort criteria)</span>
+    <span class="n">customRanking</span> <span class="o">[</span><span class="s1">&#39;desc(score)&#39;</span><span class="o">]</span>
+
+    <span class="c1"># @I_love_you</span>
+    <span class="n">separatorsToIndex</span> <span class="s1">&#39;_&#39;</span>
+
+    <span class="c1"># tag top-users</span>
+    <span class="n">tags</span> <span class="k">do</span>
+      <span class="n">followers_count</span> <span class="o">&gt;</span> <span class="mi">10000000</span> <span class="o">?</span> <span class="o">[</span><span class="s1">&#39;top&#39;</span><span class="o">]</span> <span class="p">:</span> <span class="o">[]</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">full_name</span>
+    <span class="c1"># consider screen_name and name equal</span>
+    <span class="c1"># the name should not match exact so we concatenate it with the screen_name</span>
+    <span class="o">[</span><span class="n">screen_name</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">screen_name</span><span class="si">}</span><span class="s2"> </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span><span class="o">]</span>
+  <span class="k">end</span>
+
+  <span class="c1"># the custom score</span>
+  <span class="k">def</span> <span class="nf">score</span>
+    <span class="k">return</span> <span class="n">followers_count</span> <span class="k">if</span> <span class="n">followers_count</span> <span class="o">&gt;</span> <span class="mi">0</span>
+    <span class="k">if</span> <span class="n">mentions_count</span> <span class="o">&lt;</span> <span class="mi">10</span>
+      <span class="n">mentions_count</span>
+    <span class="k">elsif</span> <span class="n">mentions_count</span> <span class="o">&lt;</span> <span class="mi">100</span>
+      <span class="n">mentions_count</span> <span class="o">*</span> <span class="mi">10</span>
+    <span class="k">elsif</span> <span class="n">mentions_count</span> <span class="o">&lt;</span> <span class="mi">1000</span>
+      <span class="n">mentions_count</span> <span class="o">*</span> <span class="mi">100</span>
+    <span class="k">else</span>
+      <span class="n">mentions_count</span> <span class="o">*</span> <span class="mi">1000</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</code></pre></div>
+<p>The user query is composed by 2 backend queries:</p>
+
+<ul>
+<li>the first one retrieves all matching top-users (could be replaced by a query targeting your followers/following only)</li>
+<li>the second one the others.</li>
+</ul>
+
+<p><a href="http://twittersearch.algolia.io/"><strong>Try it for yourself</strong></a>, and enjoy
+relevant and highlighted results after the first keystroke: <a href="http://twittersearch.algolia.io/">Twitter Handles
+Search</a>.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/stfclv.github.io/2013/07/18/our-search-as-a-service-offer-has-now-10-api-clients/">
         Our Search-as-a-Service offer has now 10 API Clients!
       </a>
     </h1>
@@ -191,7 +403,7 @@ testers:</p>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="//2013/07/08/excellent-asian-languages-support-in-our-offline-search-sdk-2-2/">
+      <a href="/stfclv.github.io/2013/07/08/excellent-asian-languages-support-in-our-offline-search-sdk-2-2/">
         Asian Language support in our Offline Search SDK 2.2
       </a>
     </h1>
@@ -222,7 +434,7 @@ version:</p>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="//2013/06/24/check-out-the-new-iosos-x-clients-for-our-search-as-a-service-offer/">
+      <a href="/stfclv.github.io/2013/06/24/check-out-the-new-iosos-x-clients-for-our-search-as-a-service-offer/">
         New iOS and OS X API clients for our Search-as-a-Service offer
       </a>
     </h1>
@@ -268,7 +480,7 @@ most welcome.</p>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="//2013/06/17/discover-our-new-java-android-search-as-a-service-api-clients-at-droidcon-paris/">
+      <a href="/stfclv.github.io/2013/06/17/discover-our-new-java-android-search-as-a-service-api-clients-at-droidcon-paris/">
         New Java & Android Search-as-a-Service API Clients at DroidCon Paris!
       </a>
     </h1>
@@ -310,46 +522,15 @@ most welcome.</p>
 
   </div>
   
-  <div class="post">
-    <h1 class="post-title">
-      <a href="//2013/05/28/discover-our-6-new-search-as-a-service-api-clients/">
-        Discover our 6 new Search-as-a-Service API Clients!
-      </a>
-    </h1>
-
-    <span class="post-date">28 May 2013</span>
-
-    <p>We <a href="http://blog.algolia.com/our-saas-version-is-in-beta/">launched the private beta</a> of our Search-as-a-Service offer two months ago. In that time we
-received very positive feedback from our beta testers and we couldn&#39;t thank
-them enough for the help they provided. To date, they have sent over 1M
-indexation jobs and over 5M queries, and the trend is increasing.</p>
-
-<p>Today we are happy to continue simplifying the experience with the release of
-six API Clients under the MIT license:</p>
-
-<ul>
-<li><a href="https://github.com/algolia/algoliasearch-client-cmd">Command line client for linux/mac</a></li>
-<li><a href="https://github.com/algolia/algoliasearch-client-ruby">Ruby client</a></li>
-<li><a href="https://github.com/algolia/algoliasearch-client-python">Python client</a></li>
-<li><a href="https://github.com/algolia/algoliasearch-client-php">PHP client</a></li>
-<li><a href="https://github.com/algolia/algoliasearch-client-js">Javascript client</a></li>
-<li><a href="https://github.com/algolia/algoliasearch-client-node">Node.js client</a></li>
-</ul>
-
-<p>Ease of integration just improved again! Your feedback (and pull requests) is
-most welcome.</p>
-
-  </div>
-  
 </div>
 
 <div class="pagination">
   
-    <a class="pagination-item older" href="//page9">Older</a>
+    <a class="pagination-item older" href="/stfclv.github.io/page9">Older</a>
   
   
     
-      <a class="pagination-item newer" href="//page7">Newer</a>
+      <a class="pagination-item newer" href="/stfclv.github.io/page7">Newer</a>
     
   
 </div>
@@ -363,10 +544,10 @@ most welcome.</p>
 
   <script>
   window.ALGOLIA_CONFIG = {
-    'applicationId': 'latency',
-    'indexName': 'jekyll',
-    'apiKey': '6be0576ff61c053d5f9a3225e2a90f76',
-    'baseurl': '/'
+    'applicationId': 'Y467AE5IQA',
+    'indexName': 'jekyll_stfclv.github.io',
+    'apiKey': '',
+    'baseurl': '/stfclv.github.io'
   }
 </script>
 <script id="algolia__template" type="text/template">
@@ -388,7 +569,7 @@ most welcome.</p>
 <script src="//cdn.jsdelivr.net/algoliasearch.helper/2.1.0/algoliasearch.helper.min.js"></script>
 <script src="//cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
 <script src="//cdn.jsdelivr.net/momentjs/2.10.3/moment.min.js"></script>
-<script src="//public/js/algolia.js"></script>
+<script src="/stfclv.github.io/public/js/algolia.js"></script>
 
   </body>
 </html>

@@ -1,17 +1,38 @@
 # Dependencies
-markdown:         redcarpet
+#markdown:         redcarpet
+markdown: 	  redcarpet
+#redcarpet:
+#    extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
+
+#redcarpet:
+#     extensions: [
+#    'autolink',           # parse links even when they are not enclosed in <> characters
+#    'fenced_code_blocks', # github-style ~~~ to delimit code blocks
+#    'footnotes',          # [^1]: footnote at bottom of page
+#    'no_intra_emphasis',  # foo_bar_baz should not be italicized
+#    'smart',              # use smartquotes in output
+#    'strikethrough',      # output strikethrough with ~~stricken~~
+#    'superscript',        # 2^(nd) -> goes to superscript
+#    'tables',             # enable table support
+#    'underline',          # _underlined_ is underlined, not italic
+#    'with_toc_data'       # add HTML anchors to each header in the output HTML, to allow linking to each section
+#  ]
+
+plugins: ['jekyll-paginate','pygments.rb']
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            stf x clv
-tagline:          'A Jekyll theme, with instant search'
-description:      'My Knowledge Base on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde theme</a> for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>,with instant-search capabilities. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a>'
+title:            stf &bull; out
+tagline:          'KB with instant search'
+description:      'My personal knowledge base, blog notes and thoughts on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde</a> &hearts; <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Made by <a href="https://twitter.com/stefun_" target="_blank">@stefun_</a>, Solutions Architect <a href="http://www.cloudera.com" target="_blank">@Cloudera</a>.</a>'
 url:              https://github.com/algolia/algoliasearch-jekyll-hyde
 #baseurl:          /algoliasearch-jekyll-hyde
-baseurl:	  '/'
+baseurl:	  '/stfclv.github.io'
+#baseurl:          '/'
+
 # Travis will install Bundler dependencies in ./vendor, so we need to exclude it
 # otherwise Jekyll will try to build it (and fail)
 exclude:          [vendor]
@@ -19,6 +40,7 @@ exclude:          [vendor]
 author:
   name:           'Stephen Clairville'
   url:            https://www.stephenclairville.com/
+
 # Thanks to @mdo for the original theme
 # author:
 #   name:           'Stephen Clairville'
@@ -30,16 +52,23 @@ paginate:         5
 version:          2.1.0
 
 github:
-    repo:         https://github.com/algolia/algoliasearch-jekyll-hyde
+    repo:         https://github.com/stfclv/stfclv.github.io
 
 # Algolia
-gems:
-  - algoliasearch-jekyll
+#gems:
+# - algoliasearch-jekyll
+#  - jekyll-algolia
 
 algolia:
-  application_id: 'latency'
-  index_name: 'jekyll'
-  read_only_api_key: '6be0576ff61c053d5f9a3225e2a90f76'
-  excluded_files:
-    - 404.html
-    - index.html
+  application_id: 'Y467AE5IQA'
+  index_name: 'jekyll_stfclv.github.io'
+  search_only_api_key: '7250ced321de9289ac679b9451999954'
+
+#algolia:
+#  application_id: 'latency'
+#  index_name: 'jekyll'
+#  read_only_api_key: '6be0576ff61c053d5f9a3225e2a90f76'
+#read_only_api_key: '3f1637e04076dbf60343a4966d407b0c'
+#  excluded_files:
+#  - 404.html
+#  - index.html

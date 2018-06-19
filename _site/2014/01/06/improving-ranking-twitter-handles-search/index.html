@@ -11,43 +11,43 @@
 
   <title>
     
-      Improving Search for Twitter Handles &middot; stf x clv
+      Improving Search for Twitter Handles &middot; stf &bull; out
     
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="//public/css/poole.css">
-  <link rel="stylesheet" href="//public/css/syntax.css">
-  <link rel="stylesheet" href="//public/css/hyde.css">
-  <link rel="stylesheet" href="//public/css/algolia.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/poole.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/syntax.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/hyde.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/algolia.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="//public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/stfclv.github.io/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/stfclv.github.io/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
 
-  <body class="theme-base-09">
+  <body class="theme-base-08">
 
     <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="//">
-          stf x clv
+        <a href="/stfclv.github.io/">
+          stf &bull; out
         </a>
       </h1>
-      <p class="lead">My Knowledge Base on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde theme</a> for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>,with instant-search capabilities. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a></p>
+      <p class="lead">My personal knowledge base, blog notes and thoughts on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde</a> &hearts; <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Made by <a href="https://twitter.com/stefun_" target="_blank">@stefun_</a>, Solutions Architect <a href="http://www.cloudera.com" target="_blank">@Cloudera</a>.</a></p>
     </div>
 
     <input type="text" class="algolia__input js-algolia__input" autocomplete="off" name="query" placeholder="Search in this site..." />
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="//">Home</a>
+      <a class="sidebar-nav-item" href="/stfclv.github.io/">Home</a>
 
       
 
@@ -59,13 +59,25 @@
       
         
           
-          <a class="sidebar-nav-item" href="//about/">About</a>
+          <a class="sidebar-nav-item" href="/stfclv.github.io/about/">About</a>
           
         
       
         
       
         
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/stfclv.github.io/security/">Security</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/stfclv.github.io/tricks/">Trixx</a>
           
         
       
@@ -130,11 +142,11 @@
         
       
 
-      <a class="sidebar-nav-item" href="https://github.com/algolia/algoliasearch-jekyll-hyde">GitHub project</a>
+      <a class="sidebar-nav-item" href="https://github.com/stfclv/stfclv.github.io">GitHub project</a>
       <span class="sidebar-nav-item">Currently v2.1.0</span>
     </nav>
 
-    <p>&copy; 2018. All rights reserved.</p>
+    <p>&copy; 2018. All rights reserved. Original by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a>.</p>
   </div>
 </div>
 
@@ -205,7 +217,7 @@ finding <a href="https://twitter.com/officialadele">@OfficialAdele</a> just im
 <li>I used your <a href="https://dev.twitter.com/docs/streaming-apis">Streaming API</a> to crawl about 20M+ accounts in ~2 weeks: it&#39;s not blazing fast but I must admit it does the job (and it&#39;s free). That&#39;s about 5 lines of Ruby with <a href="https://github.com/tweetstream/tweetstream">TweetStream</a>, good job guys!</li>
 <li>and <a href="https://github.com/bmc/daemonize">Daemonize</a> to create a bin/crawler executable.</li>
 </ul>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#! /usr/bin/env ruby</span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="ch">#! /usr/bin/env ruby</span>
 
 <span class="nb">require</span> <span class="no">File</span><span class="o">.</span><span class="n">expand_path</span><span class="p">(</span><span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">File</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="bp">__FILE__</span><span class="p">),</span> <span class="s1">&#39;..&#39;</span><span class="p">,</span> <span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="s1">&#39;environment&#39;</span><span class="p">))</span>
 
@@ -223,13 +235,13 @@ finding <a href="https://twitter.com/officialadele">@OfficialAdele</a> just im
 </code></pre></div>
 <p>For each new tweet you send to me, I store the author (name + screen<em>name +
 description + followers</em>count) and all his/her user mentions.</p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Handle</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">class</span> <span class="nc">Handle</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
 
   <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">create_from_user</span><span class="p">(</span><span class="n">user</span><span class="p">)</span>
     <span class="n">h</span> <span class="o">=</span> <span class="no">Handle</span><span class="o">.</span><span class="n">find_or_initialize_by</span><span class="p">(</span><span class="ss">screen_name</span><span class="p">:</span> <span class="n">user</span><span class="o">.</span><span class="n">screen_name</span><span class="p">)</span>
     <span class="nb">puts</span> <span class="n">h</span><span class="o">.</span><span class="n">screen_name</span> <span class="k">if</span> <span class="n">h</span><span class="o">.</span><span class="n">new_record?</span>
     <span class="n">h</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">user</span><span class="o">.</span><span class="n">name</span>
-    <span class="n">h</span><span class="o">.</span><span class="n">description</span> <span class="o">=</span> <span class="p">(</span><span class="n">user</span><span class="o">.</span><span class="n">description</span> <span class="o">||</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">[</span><span class="mi">0</span><span class="o">.</span><span class="n">.</span><span class="mi">255</span><span class="o">]</span>
+    <span class="n">h</span><span class="o">.</span><span class="n">description</span> <span class="o">=</span> <span class="p">(</span><span class="n">user</span><span class="o">.</span><span class="n">description</span> <span class="o">||</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">[</span><span class="mi">0</span><span class="o">..</span><span class="mi">255</span><span class="o">]</span>
     <span class="n">h</span><span class="o">.</span><span class="n">followers_count</span> <span class="o">=</span> <span class="n">user</span><span class="o">.</span><span class="n">followers_count</span>
     <span class="n">h</span><span class="o">.</span><span class="n">updated_at</span> <span class="o">||=</span> <span class="no">DateTime</span><span class="o">.</span><span class="n">now</span>
     <span class="n">h</span><span class="o">.</span><span class="n">save</span>
@@ -252,7 +264,7 @@ description + followers</em>count) and all his/her user mentions.</p>
 </code></pre></div>
 <p>And every minute, I re-index the last-updated accounts with a batch request
 using <a href="https://github.com/algolia/algoliasearch-rails">algoliasearch-rails</a>,</p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">every</span> <span class="mi">1</span><span class="o">.</span><span class="n">minute</span><span class="p">,</span> <span class="ss">roles</span><span class="p">:</span> <span class="o">[</span><span class="ss">:cron</span><span class="o">]</span> <span class="k">do</span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="n">every</span> <span class="mi">1</span><span class="o">.</span><span class="n">minute</span><span class="p">,</span> <span class="ss">roles</span><span class="p">:</span> <span class="o">[</span><span class="ss">:cron</span><span class="o">]</span> <span class="k">do</span>
   <span class="n">runner</span> <span class="s2">&quot;Handle.where(&#39;updated_at &gt;= ?&#39;, 1.minute.ago).reindex!&quot;</span>
 <span class="k">end</span>
 </code></pre></div>
@@ -271,7 +283,7 @@ Limits</a>. <strong>Instead, I chose to
 emphasize your top-users </strong>(accounts having 10M+ followers).</p>
 
 <p>Here is the configuration I used</p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Handle</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">class</span> <span class="nc">Handle</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
 
   <span class="kp">include</span> <span class="no">AlgoliaSearch</span>
   <span class="n">algoliasearch</span> <span class="ss">per_environment</span><span class="p">:</span> <span class="kp">true</span><span class="p">,</span> <span class="ss">auto_index</span><span class="p">:</span> <span class="kp">false</span><span class="p">,</span> <span class="ss">auto_remove</span><span class="p">:</span> <span class="kp">false</span> <span class="k">do</span>
@@ -340,7 +352,16 @@ Search</a>.</p>
     
       <li>
         <h3>
-          <a href="//2015/07/15/new-distributed-search-network-texas/">
+          <a href="/stfclv.github.io/2018/06/18/markdown-redcarpet-and-extensions/">
+            Markdown / Redcarpet and Extensions
+            <small>18 Jun 2018</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/stfclv.github.io/2015/07/15/new-distributed-search-network-texas/">
             Welcome Texas!
             <small>15 Jul 2015</small>
           </a>
@@ -349,18 +370,9 @@ Search</a>.</p>
     
       <li>
         <h3>
-          <a href="//2015/06/15/when-solid-state-drives-are-not-that-solid/">
+          <a href="/stfclv.github.io/2015/06/15/when-solid-state-drives-are-not-that-solid/">
             When Solid State Drives are not that solid
             <small>15 Jun 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="//2015/05/28/we-just-raised-our-series-a-whats-next/">
-            We just raised our Series A. What's next?
-            <small>28 May 2015</small>
           </a>
         </h3>
       </li>
@@ -377,10 +389,10 @@ Search</a>.</p>
 
   <script>
   window.ALGOLIA_CONFIG = {
-    'applicationId': 'latency',
-    'indexName': 'jekyll',
-    'apiKey': '6be0576ff61c053d5f9a3225e2a90f76',
-    'baseurl': '/'
+    'applicationId': 'Y467AE5IQA',
+    'indexName': 'jekyll_stfclv.github.io',
+    'apiKey': '',
+    'baseurl': '/stfclv.github.io'
   }
 </script>
 <script id="algolia__template" type="text/template">
@@ -402,7 +414,7 @@ Search</a>.</p>
 <script src="//cdn.jsdelivr.net/algoliasearch.helper/2.1.0/algoliasearch.helper.min.js"></script>
 <script src="//cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
 <script src="//cdn.jsdelivr.net/momentjs/2.10.3/moment.min.js"></script>
-<script src="//public/js/algolia.js"></script>
+<script src="/stfclv.github.io/public/js/algolia.js"></script>
 
   </body>
 </html>

@@ -11,43 +11,43 @@
 
   <title>
     
-      stf x clv &middot; A Jekyll theme, with instant search
+      stf &bull; out &middot; KB with instant search
     
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="//public/css/poole.css">
-  <link rel="stylesheet" href="//public/css/syntax.css">
-  <link rel="stylesheet" href="//public/css/hyde.css">
-  <link rel="stylesheet" href="//public/css/algolia.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/poole.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/syntax.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/hyde.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/algolia.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="//public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/stfclv.github.io/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/stfclv.github.io/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
 
-  <body class="theme-base-09">
+  <body class="theme-base-08">
 
     <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="//">
-          stf x clv
+        <a href="/stfclv.github.io/">
+          stf &bull; out
         </a>
       </h1>
-      <p class="lead">My Knowledge Base on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde theme</a> for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>,with instant-search capabilities. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a></p>
+      <p class="lead">My personal knowledge base, blog notes and thoughts on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde</a> &hearts; <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Made by <a href="https://twitter.com/stefun_" target="_blank">@stefun_</a>, Solutions Architect <a href="http://www.cloudera.com" target="_blank">@Cloudera</a>.</a></p>
     </div>
 
     <input type="text" class="algolia__input js-algolia__input" autocomplete="off" name="query" placeholder="Search in this site..." />
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="//">Home</a>
+      <a class="sidebar-nav-item" href="/stfclv.github.io/">Home</a>
 
       
 
@@ -59,13 +59,25 @@
       
         
           
-          <a class="sidebar-nav-item" href="//about/">About</a>
+          <a class="sidebar-nav-item" href="/stfclv.github.io/about/">About</a>
           
         
       
         
       
         
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/stfclv.github.io/security/">Security</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/stfclv.github.io/tricks/">Trixx</a>
           
         
       
@@ -130,11 +142,11 @@
         
       
 
-      <a class="sidebar-nav-item" href="https://github.com/algolia/algoliasearch-jekyll-hyde">GitHub project</a>
+      <a class="sidebar-nav-item" href="https://github.com/stfclv/stfclv.github.io">GitHub project</a>
       <span class="sidebar-nav-item">Currently v2.1.0</span>
     </nav>
 
-    <p>&copy; 2018. All rights reserved.</p>
+    <p>&copy; 2018. All rights reserved. Original by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a>.</p>
   </div>
 </div>
 
@@ -144,7 +156,55 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="//2012/11/30/we-are-seedcamp-finalists/">
+      <a href="/stfclv.github.io/2012/12/13/our-smart-contacts-demo-hits-the-app-store/">
+        Smart Contacts Demo Hits the App Store!
+      </a>
+    </h1>
+
+    <span class="post-date">13 Dec 2012</span>
+
+    <p>After going back and forth a few times with Apple, we are really happy to
+announce the availibility of our <a href="https://itunes.apple.com/gb/app/algolia-smart-contact/id583433043">Smart
+Contacts</a>
+application on the App Store! Even if we built it to demonstrate the amazing
+features of our search technology SDK, it can be used as an in-place
+replacement of the traditional iPhone Contacts app. Check it up!</p>
+
+<p><a href="https://itunes.apple.com/gb/app/algolia-smart-%0Acontact/id583433043"><img src="/algoliasearch-jekyll-hyde/assets/available-on-iphone-app-store-logo.png" alt="Smart Contacts demo hits the App Store"></a></p>
+
+<h2>Outstanding Search Features</h2>
+
+<p>It plugs directly into your iPhone contacts and classically allows you to
+update them or create new ones. What&#39;s more interesting is the Search
+integration! It features:<a href="https://blog.algolia.com/wp-content/uploads/2012/12%0A/SmartContact-iphone5.png"><img src="/algoliasearch-jekyll-hyde/assets/SmartContact-iphone5-489x1024.png" alt="Smart Contacts Screenshot"></a></p>
+
+<ul>
+<li><strong>Instant search</strong> with autocompletion and <strong>visual feedback</strong> as you type</li>
+<li>Search on <strong>all contacts attributes</strong> (name, company, notes, etc.)</li>
+<li><strong>Typo tolerance</strong> to account for smartphone small keyboards</li>
+<li>And even <strong>search by initials</strong>!</li>
+</ul>
+
+<h2>iOS API Limitations</h2>
+
+<p>There are a few of features we would have loved to integrate that were not
+possible due to limitations in iOS APIs: group management, in place
+replacement of contacts in the phone app (that&#39;s maybe a lot to ask!), and
+ranking based on contact popularity.</p>
+
+<h2>Free your Imagination!</h2>
+
+<p>If you ever wanted to see Algolia Search in action, now is the time. Check it
+up with your own data and imagine what Algolia can do for the application you
+develop!</p>
+
+<p>And don&#39;t forget your 5 stars ranking ;)</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/stfclv.github.io/2012/11/30/we-are-seedcamp-finalists/">
         We are SeedCamp Finalists!
       </a>
     </h1>
@@ -170,7 +230,7 @@ advice</a>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="//2012/11/29/why-autocomplete-in-twitter-on-mobile-sucks/">
+      <a href="/stfclv.github.io/2012/11/29/why-autocomplete-in-twitter-on-mobile-sucks/">
         Why Autocomplete in Twitter Mobile App Sucks
       </a>
     </h1>
@@ -218,7 +278,7 @@ Search</a>!</p>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="//2012/11/21/algolia-search-is-out/">
+      <a href="/stfclv.github.io/2012/11/21/algolia-search-is-out/">
         Algolia Search is Out!
       </a>
     </h1>
@@ -252,7 +312,7 @@ course, to order the product! Check it out and let us know what you think!</p>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="//2012/11/12/the-ordeal-of-obtaining-an-apple-developer-professional-account/">
+      <a href="/stfclv.github.io/2012/11/12/the-ordeal-of-obtaining-an-apple-developer-professional-account/">
         The Ordeal of Obtaining an Apple Developer Professional Account
       </a>
     </h1>
@@ -304,69 +364,15 @@ this lesson to ourselves. Feel free to tell us if something&#39;s going wrong!</
 
   </div>
   
-  <div class="post">
-    <h1 class="post-title">
-      <a href="//2012/10/19/painless-integration-crystal-clear-documentation-please-welcome-algolia-search-beta-4/">
-        Painless integration, crystal clear documentation, please welcome Algolia Search beta 4!
-      </a>
-    </h1>
-
-    <span class="post-date">19 Oct 2012</span>
-
-    <p><a href="https://blog.algolia.com%0A/wp-content/uploads/2012/10/CitiesSuggestIPhone5Slide3.png"><img src="/algoliasearch-jekyll-hyde/assets/CitiesSuggestIPhone5Slide3-300x194.png" alt=""></a></p>
-
-<p>Last month has been truly electrifying! We joined our friends at
-<a href="http://www.yakaz.com/">Yakaz</a> in their office space, we participated in many
-events... and most exciting of all, we spent days and nights reworking the
-product! Today we are really proud to present you the result of this time well
-spent!</p>
-
-<p>I know I told some of you beta3 would be the last, but we could not ignore
-your excellent feedback. So here comes Algolia Search beta4, a true revolution
-(I hope this is not trademarked!) in mobile search!</p>
-
-<p>Here come the major improvements:</p>
-
-<ul>
-<li>A completely <strong>reworked API</strong> that we just love to use everywhere. The time to fully understand the library has been reduced to nearly nothing thanks to all your feedback. We are proud to have the easiest to use search library ever made!</li>
-<li>A completely <strong>rewritten documentation</strong> with detailed API and step-by-step tutorials. You should be able to make your first queries in a matter of minutes!</li>
-<li><strong>Easy highlight</strong> for <strong>multiple fields queries</strong>. A bit cryptic? Stay with me... just imagine a Contact application where you can search for your contact by any field, i.e., name, company, address or even notes. Algolia Search now provides easy-to-use highlighting of any matching words. It is even able to generate a snippet when the text is too long. Check out the tutorials to learn more! Highlighting relevant results just became child&#39;s play!</li>
-<li>A greatly <strong>improved out-of-the-box relevance</strong>. Our mission is to simplify search: we want the best possible relevance by default so you can forget these long hours of tuning :)</li>
-</ul>
-
-<p>But that&#39;s not all, many smaller improvements were also included in this
-release:</p>
-
-<ul>
-<li>Support of <strong>advanced queries</strong>. Take again our tutorial contact application, wouldn&#39;t it be great to be able to search by initials? You can now implement this cool feature in a couple of minutes without any headache on relevance tuning.</li>
-<li>Support for <strong>ARC and no ARC</strong>. In the previous beta we added an iOS version for people that do not use <a href="http://developer.apple.com/library/mac/#releasenotes/ObjectiveC/RN-TransitioningToARC/Introduction/Introduction.html">Automatic Reference Counting (ARC)</a>. We now have only one version that supports projects with and without ARC. If you do not use ARC, all objects received from Algolia Search are autoreleased.</li>
-<li>Support for <strong>user objects backward compatibility</strong>. As the index is also an objects store, you can modify your object members and still read older indexes! It is very easy to implement, just check the tutorials.</li>
-<li>The release also fixes a few bugs that we discovered during your and our intensive testing.</li>
-</ul>
-
-<p>It would not have been possible without the help of our many beta testers,
-thank you all! Special thanks to <a href="https://twitter.com/krmarkel">Kris</a>,
-<a href="https://twitter.com/dinh_viet_hoa">Hoa</a> and
-<a href="https://twitter.com/sarfata">Thomas</a> whose guidance has been priceless.</p>
-
-<p>So... what&#39;s next? Many things! This time I really believe this is the last
-beta. The final release is just around the corner. Of course, we appreciate
-your feedback nonetheless and always will! You can also expect a new website
-and a few apps in the app store! Who said a contact app?</p>
-
-<p>Stay tuned!</p>
-
-  </div>
-  
 </div>
 
 <div class="pagination">
   
-    <a class="pagination-item older" href="//page14">Older</a>
+    <a class="pagination-item older" href="/stfclv.github.io/page14">Older</a>
   
   
     
-      <a class="pagination-item newer" href="//page12">Newer</a>
+      <a class="pagination-item newer" href="/stfclv.github.io/page12">Newer</a>
     
   
 </div>
@@ -380,10 +386,10 @@ and a few apps in the app store! Who said a contact app?</p>
 
   <script>
   window.ALGOLIA_CONFIG = {
-    'applicationId': 'latency',
-    'indexName': 'jekyll',
-    'apiKey': '6be0576ff61c053d5f9a3225e2a90f76',
-    'baseurl': '/'
+    'applicationId': 'Y467AE5IQA',
+    'indexName': 'jekyll_stfclv.github.io',
+    'apiKey': '',
+    'baseurl': '/stfclv.github.io'
   }
 </script>
 <script id="algolia__template" type="text/template">
@@ -405,7 +411,7 @@ and a few apps in the app store! Who said a contact app?</p>
 <script src="//cdn.jsdelivr.net/algoliasearch.helper/2.1.0/algoliasearch.helper.min.js"></script>
 <script src="//cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
 <script src="//cdn.jsdelivr.net/momentjs/2.10.3/moment.min.js"></script>
-<script src="//public/js/algolia.js"></script>
+<script src="/stfclv.github.io/public/js/algolia.js"></script>
 
   </body>
 </html>

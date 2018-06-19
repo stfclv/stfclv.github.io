@@ -11,43 +11,43 @@
 
   <title>
     
-      Android NDK: How to Reduce Binaries Size - The Algolia Blog &middot; stf x clv
+      Android NDK: How to Reduce Binaries Size - The Algolia Blog &middot; stf &bull; out
     
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="//public/css/poole.css">
-  <link rel="stylesheet" href="//public/css/syntax.css">
-  <link rel="stylesheet" href="//public/css/hyde.css">
-  <link rel="stylesheet" href="//public/css/algolia.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/poole.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/syntax.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/hyde.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/algolia.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="//public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/stfclv.github.io/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/stfclv.github.io/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
 
-  <body class="theme-base-09">
+  <body class="theme-base-08">
 
     <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="//">
-          stf x clv
+        <a href="/stfclv.github.io/">
+          stf &bull; out
         </a>
       </h1>
-      <p class="lead">My Knowledge Base on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde theme</a> for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>,with instant-search capabilities. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a></p>
+      <p class="lead">My personal knowledge base, blog notes and thoughts on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde</a> &hearts; <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Made by <a href="https://twitter.com/stefun_" target="_blank">@stefun_</a>, Solutions Architect <a href="http://www.cloudera.com" target="_blank">@Cloudera</a>.</a></p>
     </div>
 
     <input type="text" class="algolia__input js-algolia__input" autocomplete="off" name="query" placeholder="Search in this site..." />
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="//">Home</a>
+      <a class="sidebar-nav-item" href="/stfclv.github.io/">Home</a>
 
       
 
@@ -59,13 +59,25 @@
       
         
           
-          <a class="sidebar-nav-item" href="//about/">About</a>
+          <a class="sidebar-nav-item" href="/stfclv.github.io/about/">About</a>
           
         
       
         
       
         
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/stfclv.github.io/security/">Security</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/stfclv.github.io/tricks/">Trixx</a>
           
         
       
@@ -130,11 +142,11 @@
         
       
 
-      <a class="sidebar-nav-item" href="https://github.com/algolia/algoliasearch-jekyll-hyde">GitHub project</a>
+      <a class="sidebar-nav-item" href="https://github.com/stfclv/stfclv.github.io">GitHub project</a>
       <span class="sidebar-nav-item">Currently v2.1.0</span>
     </nav>
 
-    <p>&copy; 2018. All rights reserved.</p>
+    <p>&copy; 2018. All rights reserved. Original by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a>.</p>
   </div>
 </div>
 
@@ -164,7 +176,7 @@ completeness, I&#39;ll cover this point too.</p>
 <p>C++ exceptions and RTTI are disabled by default but you can enable them via
 <em>APP</em>CPPFLAGS_ in your <em>Application.mk</em> file and use a compatible STL, for
 example:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">APP_CPPFLAGS += -fexceptions -frtti
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>APP_CPPFLAGS += -fexceptions -frtti
 APP_STL := stlport_shared
 </code></pre></div>
 <p>Whilst using exceptions and RTTI can help you to use existing code, it will
@@ -174,7 +186,7 @@ support is still far from perfect. For example if was impossible for us to
 catch a C++ exception and launch a Java exception in JNI. The following code
 results in a crash (will probably be fixed in a future release of the Android
 NDK toolchain):</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">try {
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>try {
     ...
 } catch (std::exception&amp; e) {
     env-&gt;ThrowNew(env-&gt;FindClass(&quot;java/lang/Exception&quot;), &quot;Error occured&quot;);
@@ -190,18 +202,18 @@ minor changes.</p>
 
 <p>By dichotomy search in our commits, we discovered that a single line of code
 was responsible for the inflation:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">std::cerr &lt;&lt; .... &lt;&lt; std::endl;
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>std::cerr &lt;&lt; .... &lt;&lt; std::endl;
 </code></pre></div>
 <p>As incredible as it may sound, using iostream increases a lot the binary size.
 Our tests shown that it adds a least 300KB per architecture! You must be very
 careful with iostream and prefer to use _<em>android</em>log_print method:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">#include &lt;android/log.h&gt;
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>#include &lt;android/log.h&gt;
 #define APPNAME &quot;MyApp&quot;
 
 __android_log_print(ANDROID_LOG_VERBOSE, APPNAME, &quot;The value of 1 + 1 is %d&quot;, 1+1);
 </code></pre></div>
 <p>Make sure you also link against the logging library, in your Android.mk file:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">LOCAL_LDLIBS := -llog
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>LOCAL_LDLIBS := -llog
 </code></pre></div>
 <h3>Use -fvisibility=hidden</h3>
 
@@ -211,12 +223,12 @@ control which functions will be exported in the symbols table. Hopefully, JNI
 comes with a <em>JNIEXPORT</em> macro that flags JNI functions as public. You just
 have to check that all functions used by JNI are prefixed by JNIEXPORT, like
 this one:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">JNIEXPORT void JNICALL Java_ClassName_MethodName
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>JNIEXPORT void JNICALL Java_ClassName_MethodName
 (JNIEnv *env, jobject obj, jstring javaString)
 </code></pre></div>
 <p>Then you have just to add <em>-fvisibility=hidden</em> for C and C++ files in
 <em>Android.mk</em> file:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">LOCAL_CPPFLAGS += -fvisibility=hidden
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>LOCAL_CPPFLAGS += -fvisibility=hidden
 LOCAL_CFLAGS += -fvisibility=hidden
 </code></pre></div>
 <p>In our case the binaries were down to 809KB (-5%) but remember the gains may
@@ -230,12 +242,12 @@ tests.</p>
 
 <p>To enable this feature, you just have to change the C and C++ compilation
 flags and the linker flags in <em>Android.mk</em>:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">LOCAL_CPPFLAGS += -ffunction-sections -fdata-sections
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>LOCAL_CPPFLAGS += -ffunction-sections -fdata-sections
 LOCAL_CFLAGS += -ffunction-sections -fdata-sections 
 LOCAL_LDFLAGS += -Wl,--gc-sections
 </code></pre></div>
 <p>Of course you can combine this feature with the visibility one:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">LOCAL_CPPFLAGS += -ffunction-sections -fdata-sections -fvisibility=hidden
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>LOCAL_CPPFLAGS += -ffunction-sections -fdata-sections -fvisibility=hidden
 LOCAL_CPPFLAGS += -ffunction-sections -fdata-sections -fvisibility=hidden
 LOCAL_CFLAGS += -ffunction-sections -fdata-sections  LOCAL_LDFLAGS += -Wl,--gc-sections
 </code></pre></div>
@@ -250,12 +262,12 @@ that this flag does not impact performance.</p>
 
 <p>This option is not yet available on the mips architecture so you need to add
 an architecture check in <em>Android.mk</em>:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">ifneq ($(TARGET_ARCH),mips)
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>ifneq ($(TARGET_ARCH),mips)
   LOCAL_LDFLAGS += -Wl,--icf=safe
 endif
 </code></pre></div>
 <p>And if you want to combine this option with gc-sections:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">ifeq ($(TARGET_ARCH),mips)
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>ifeq ($(TARGET_ARCH),mips)
   LOCAL_LDFLAGS += -Wl,--gc-sections
 else
   LOCAL_LDFLAGS += -Wl,--gc-sections,--icf=safe
@@ -277,7 +289,7 @@ of the toolchain. Flags are not identical accross architectures, for example:</p
 <p>As arm is used by the large majority of devices, we have applied arm settings
 for other architectures. Here is the patch we applied on the toolchain
 (version r8d):</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">--- android-ndk-r8d/toolchains/mipsel-linux-android-4.6/setup.mk
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>--- android-ndk-r8d/toolchains/mipsel-linux-android-4.6/setup.mk
 +++ android-ndk-r8d.new/toolchains/mipsel-linux-android-4.6/setup.mk
 @@ -41,12 +41,12 @@
  TARGET_C_INCLUDES := 
@@ -326,7 +338,7 @@ today.</p>
 
 <p>And if binary size is really important to you, you can just limit your support
 to armeabi and x86 architectures in <em>Application.mk</em>:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">APP_ABI := armeabi x86
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>APP_ABI := armeabi x86
 </code></pre></div>
 <p>Obviously, this optim was the killer one. Dropping two out of four
 architectures halved the binaries size. Overall we obtained a size of 307KB, a
@@ -348,7 +360,16 @@ you know other methods to reduce binary size, please share in the comments!</p>
     
       <li>
         <h3>
-          <a href="//2015/07/15/new-distributed-search-network-texas/">
+          <a href="/stfclv.github.io/2018/06/18/markdown-redcarpet-and-extensions/">
+            Markdown / Redcarpet and Extensions
+            <small>18 Jun 2018</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/stfclv.github.io/2015/07/15/new-distributed-search-network-texas/">
             Welcome Texas!
             <small>15 Jul 2015</small>
           </a>
@@ -357,18 +378,9 @@ you know other methods to reduce binary size, please share in the comments!</p>
     
       <li>
         <h3>
-          <a href="//2015/06/15/when-solid-state-drives-are-not-that-solid/">
+          <a href="/stfclv.github.io/2015/06/15/when-solid-state-drives-are-not-that-solid/">
             When Solid State Drives are not that solid
             <small>15 Jun 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="//2015/05/28/we-just-raised-our-series-a-whats-next/">
-            We just raised our Series A. What's next?
-            <small>28 May 2015</small>
           </a>
         </h3>
       </li>
@@ -385,10 +397,10 @@ you know other methods to reduce binary size, please share in the comments!</p>
 
   <script>
   window.ALGOLIA_CONFIG = {
-    'applicationId': 'latency',
-    'indexName': 'jekyll',
-    'apiKey': '6be0576ff61c053d5f9a3225e2a90f76',
-    'baseurl': '/'
+    'applicationId': 'Y467AE5IQA',
+    'indexName': 'jekyll_stfclv.github.io',
+    'apiKey': '',
+    'baseurl': '/stfclv.github.io'
   }
 </script>
 <script id="algolia__template" type="text/template">
@@ -410,7 +422,7 @@ you know other methods to reduce binary size, please share in the comments!</p>
 <script src="//cdn.jsdelivr.net/algoliasearch.helper/2.1.0/algoliasearch.helper.min.js"></script>
 <script src="//cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
 <script src="//cdn.jsdelivr.net/momentjs/2.10.3/moment.min.js"></script>
-<script src="//public/js/algolia.js"></script>
+<script src="/stfclv.github.io/public/js/algolia.js"></script>
 
   </body>
 </html>

@@ -11,43 +11,43 @@
 
   <title>
     
-      Introducing Easier Onboarding and Activation with Connectors &middot; stf x clv
+      Introducing Easier Onboarding and Activation with Connectors &middot; stf &bull; out
     
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="//public/css/poole.css">
-  <link rel="stylesheet" href="//public/css/syntax.css">
-  <link rel="stylesheet" href="//public/css/hyde.css">
-  <link rel="stylesheet" href="//public/css/algolia.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/poole.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/syntax.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/hyde.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/algolia.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="//public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/stfclv.github.io/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/stfclv.github.io/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
 
-  <body class="theme-base-09">
+  <body class="theme-base-08">
 
     <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="//">
-          stf x clv
+        <a href="/stfclv.github.io/">
+          stf &bull; out
         </a>
       </h1>
-      <p class="lead">My Knowledge Base on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde theme</a> for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>,with instant-search capabilities. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a></p>
+      <p class="lead">My personal knowledge base, blog notes and thoughts on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde</a> &hearts; <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Made by <a href="https://twitter.com/stefun_" target="_blank">@stefun_</a>, Solutions Architect <a href="http://www.cloudera.com" target="_blank">@Cloudera</a>.</a></p>
     </div>
 
     <input type="text" class="algolia__input js-algolia__input" autocomplete="off" name="query" placeholder="Search in this site..." />
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="//">Home</a>
+      <a class="sidebar-nav-item" href="/stfclv.github.io/">Home</a>
 
       
 
@@ -59,13 +59,25 @@
       
         
           
-          <a class="sidebar-nav-item" href="//about/">About</a>
+          <a class="sidebar-nav-item" href="/stfclv.github.io/about/">About</a>
           
         
       
         
       
         
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/stfclv.github.io/security/">Security</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/stfclv.github.io/tricks/">Trixx</a>
           
         
       
@@ -130,11 +142,11 @@
         
       
 
-      <a class="sidebar-nav-item" href="https://github.com/algolia/algoliasearch-jekyll-hyde">GitHub project</a>
+      <a class="sidebar-nav-item" href="https://github.com/stfclv/stfclv.github.io">GitHub project</a>
       <span class="sidebar-nav-item">Currently v2.1.0</span>
     </nav>
 
-    <p>&copy; 2018. All rights reserved.</p>
+    <p>&copy; 2018. All rights reserved. Original by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a>.</p>
   </div>
 </div>
 
@@ -171,12 +183,12 @@ just to try a service, so we decided to try something else.</p>
 <p>90% of our users are using a SQL or MongoDB database. Exporting a table or a
 collection to a JSON file can be easy if you&#39;re using a framework, for example
 Ruby on Rails:</p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">File</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">&quot;/tmp/export.json&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="no">File</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">&quot;/tmp/export.json&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span>
   <span class="n">f</span> <span class="o">&lt;&lt;</span> <span class="no">MyActiveRecordModel</span><span class="o">.</span><span class="n">all</span><span class="o">.</span><span class="n">to_json</span>
 <span class="k">end</span>
 </code></pre></div>
 <p>...or more annoying, for example when using PHP without any framework:</p>
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="x">mysql_connect(&#39;localhost&#39;, &#39;mysql_user&#39;, &#39;mysql_password&#39;);</span>
+<div class="highlight"><pre><code class="language-php" data-lang="php"><span></span><span class="x">mysql_connect(&#39;localhost&#39;, &#39;mysql_user&#39;, &#39;mysql_password&#39;);</span>
 <span class="x">mysql_set_charset(&#39;utf8&#39;);</span>
 <span class="x">$results = array();</span>
 <span class="x">$q = mysql_query(&quot;SELECT * FROM YourTable&quot;);</span>
@@ -191,7 +203,7 @@ Ruby on Rails:</p>
 </code></pre></div>
 <p>Anyway, in both cases it gets harder if you want to export millions of rows
 without consuming hundreds GB of RAM. So you will need to use our API clients:</p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">index</span> <span class="o">=</span> <span class="no">Algolia</span><span class="o">::</span><span class="no">Index</span><span class="o">.</span><span class="n">new</span> <span class="s2">&quot;YourIndex&quot;</span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="n">index</span> <span class="o">=</span> <span class="no">Algolia</span><span class="o">::</span><span class="no">Index</span><span class="o">.</span><span class="n">new</span> <span class="s2">&quot;YourIndex&quot;</span>
 <span class="no">MyActiveRecordModel</span><span class="o">.</span><span class="n">find_in_batches</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">objects</span><span class="o">|</span>
   <span class="n">index</span><span class="o">.</span><span class="n">add_objects</span><span class="p">(</span><span class="n">objects</span><span class="p">)</span>
 <span class="k">end</span>
@@ -266,7 +278,7 @@ our server. If you store the last modification date of a row in a field, you
 can use it in order to send all detected updates every 10 seconds. Every 5
 minutes, the connector synchronizes your database with the index by adding the
 new rows and removing the deleted ones.</p>
-<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">jdbc</span><span class="o">-</span><span class="n">connector</span><span class="o">.</span><span class="na">sh</span> <span class="o">--</span><span class="n">source</span> <span class="s">&quot;jdbc:mysql://localhost/YourDB&quot;</span>  
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span></span><span class="n">jdbc</span><span class="o">-</span><span class="n">connector</span><span class="o">.</span><span class="na">sh</span> <span class="o">--</span><span class="n">source</span> <span class="s">&quot;jdbc:mysql://localhost/YourDB&quot;</span>  
   <span class="o">--</span><span class="n">username</span> <span class="n">mysqlUser</span> <span class="o">--</span><span class="n">password</span> <span class="n">mysqlPassword</span>             
   <span class="o">--</span><span class="n">selectQuery</span> <span class="s">&quot;SELECT * FROM YourTable&quot;</span> <span class="o">--</span><span class="n">primaryField</span> <span class="n">id</span> 
   <span class="o">--</span><span class="n">updateQuery</span> <span class="s">&quot;SELECT * FROM YourTable WHERE updated_at &gt; _$&quot;</span>
@@ -274,7 +286,7 @@ new rows and removing the deleted ones.</p>
   <span class="o">--</span><span class="n">applicationId</span> <span class="n">YourApplicationId</span> <span class="o">--</span><span class="n">apiKey</span> <span class="n">YourApiKey</span> <span class="o">--</span><span class="n">index</span> <span class="n">YourIndexName</span>
 </code></pre></div>
 <p>If you don&#39;t have an updated_at  field, you can use:</p>
-<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">jdbc</span><span class="o">-</span><span class="n">connector</span><span class="o">.</span><span class="na">sh</span> <span class="o">--</span><span class="n">source</span> <span class="s">&quot;jdbc:mysql://localhost/YourDB&quot;</span>  
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span></span><span class="n">jdbc</span><span class="o">-</span><span class="n">connector</span><span class="o">.</span><span class="na">sh</span> <span class="o">--</span><span class="n">source</span> <span class="s">&quot;jdbc:mysql://localhost/YourDB&quot;</span>  
   <span class="o">--</span><span class="n">username</span> <span class="n">mysqlUser</span> <span class="o">--</span><span class="n">password</span> <span class="n">mysqlPassword</span>             
   <span class="o">--</span><span class="n">selectQuery</span> <span class="s">&quot;SELECT * FROM YourTable&quot;</span> <span class="o">--</span><span class="n">primaryField</span> <span class="n">id</span> 
   <span class="o">--</span><span class="n">applicationId</span> <span class="n">YourApplicationId</span> <span class="o">--</span><span class="n">apiKey</span> <span class="n">YourApiKey</span> <span class="o">--</span><span class="n">index</span> <span class="n">YourIndexName</span>
@@ -294,7 +306,7 @@ Basically, you need to start your server with: mongod --replSet
 REPLICA<em>SET</em>IDENTIFIER. Once started, the connector will replicate each
 addition/deletion/update to our server, sending a batch of operations every 10
 seconds.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">mongo-connector -m localhost:27017 -n myDb.myCollection 
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>mongo-connector -m localhost:27017 -n myDb.myCollection 
   -d ./doc_managers/algolia_doc_manager.py              
   -t YourApplicationID:YourApiKey:YourIndex
 </code></pre></div>
@@ -318,7 +330,16 @@ your feedback. Your feature requests are welcome!</p>
     
       <li>
         <h3>
-          <a href="//2015/07/15/new-distributed-search-network-texas/">
+          <a href="/stfclv.github.io/2018/06/18/markdown-redcarpet-and-extensions/">
+            Markdown / Redcarpet and Extensions
+            <small>18 Jun 2018</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/stfclv.github.io/2015/07/15/new-distributed-search-network-texas/">
             Welcome Texas!
             <small>15 Jul 2015</small>
           </a>
@@ -327,18 +348,9 @@ your feedback. Your feature requests are welcome!</p>
     
       <li>
         <h3>
-          <a href="//2015/06/15/when-solid-state-drives-are-not-that-solid/">
+          <a href="/stfclv.github.io/2015/06/15/when-solid-state-drives-are-not-that-solid/">
             When Solid State Drives are not that solid
             <small>15 Jun 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="//2015/05/28/we-just-raised-our-series-a-whats-next/">
-            We just raised our Series A. What's next?
-            <small>28 May 2015</small>
           </a>
         </h3>
       </li>
@@ -355,10 +367,10 @@ your feedback. Your feature requests are welcome!</p>
 
   <script>
   window.ALGOLIA_CONFIG = {
-    'applicationId': 'latency',
-    'indexName': 'jekyll',
-    'apiKey': '6be0576ff61c053d5f9a3225e2a90f76',
-    'baseurl': '/'
+    'applicationId': 'Y467AE5IQA',
+    'indexName': 'jekyll_stfclv.github.io',
+    'apiKey': '',
+    'baseurl': '/stfclv.github.io'
   }
 </script>
 <script id="algolia__template" type="text/template">
@@ -380,7 +392,7 @@ your feedback. Your feature requests are welcome!</p>
 <script src="//cdn.jsdelivr.net/algoliasearch.helper/2.1.0/algoliasearch.helper.min.js"></script>
 <script src="//cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
 <script src="//cdn.jsdelivr.net/momentjs/2.10.3/moment.min.js"></script>
-<script src="//public/js/algolia.js"></script>
+<script src="/stfclv.github.io/public/js/algolia.js"></script>
 
   </body>
 </html>

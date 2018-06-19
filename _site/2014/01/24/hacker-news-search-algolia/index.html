@@ -11,43 +11,43 @@
 
   <title>
     
-      Hacker News search: 6.5 million articles and comments at your fingertips &middot; stf x clv
+      Hacker News search: 6.5 million articles and comments at your fingertips &middot; stf &bull; out
     
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="//public/css/poole.css">
-  <link rel="stylesheet" href="//public/css/syntax.css">
-  <link rel="stylesheet" href="//public/css/hyde.css">
-  <link rel="stylesheet" href="//public/css/algolia.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/poole.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/syntax.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/hyde.css">
+  <link rel="stylesheet" href="/stfclv.github.io/public/css/algolia.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="//public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/stfclv.github.io/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/stfclv.github.io/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
 
-  <body class="theme-base-09">
+  <body class="theme-base-08">
 
     <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="//">
-          stf x clv
+        <a href="/stfclv.github.io/">
+          stf &bull; out
         </a>
       </h1>
-      <p class="lead">My Knowledge Base on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde theme</a> for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>,with instant-search capabilities. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a></p>
+      <p class="lead">My personal knowledge base, blog notes and thoughts on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde</a> &hearts; <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Made by <a href="https://twitter.com/stefun_" target="_blank">@stefun_</a>, Solutions Architect <a href="http://www.cloudera.com" target="_blank">@Cloudera</a>.</a></p>
     </div>
 
     <input type="text" class="algolia__input js-algolia__input" autocomplete="off" name="query" placeholder="Search in this site..." />
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="//">Home</a>
+      <a class="sidebar-nav-item" href="/stfclv.github.io/">Home</a>
 
       
 
@@ -59,13 +59,25 @@
       
         
           
-          <a class="sidebar-nav-item" href="//about/">About</a>
+          <a class="sidebar-nav-item" href="/stfclv.github.io/about/">About</a>
           
         
       
         
       
         
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/stfclv.github.io/security/">Security</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/stfclv.github.io/tricks/">Trixx</a>
           
         
       
@@ -130,11 +142,11 @@
         
       
 
-      <a class="sidebar-nav-item" href="https://github.com/algolia/algoliasearch-jekyll-hyde">GitHub project</a>
+      <a class="sidebar-nav-item" href="https://github.com/stfclv/stfclv.github.io">GitHub project</a>
       <span class="sidebar-nav-item">Currently v2.1.0</span>
     </nav>
 
-    <p>&copy; 2018. All rights reserved.</p>
+    <p>&copy; 2018. All rights reserved. Original by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a>.</p>
   </div>
 </div>
 
@@ -176,7 +188,7 @@ yourself right here: <a href="http://hn.algolia.com/">hn.algolia.com</a></p>
 <ul>
 <li>YC provides us a private API access to fetch batches of 1000 items (an item being a comment or a post). Every two minutes, we update our database with the latest 1000 items. Last 48,000 items are refreshed every hour to keep the number of votes and comments up to date.</li>
 </ul>
-<div class="highlight"><pre><code class="language-text" data-lang="text"># Yep, that&#39;s a Lisp API :)
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span># Yep, that&#39;s a Lisp API :)
 EXPORT_REGEXP = %r{^((d+) (story|comment|poll|pollopt) &quot;(.+)&quot; (d+) (?:nil|&quot;(.*)&quot;) (?:nil|&quot;(.+)&quot;) (?:nil|&quot;(.*)&quot;) (?:nil|-?(d+)) (?:nil|(([d ]+))) (?:nil|(d+)))$}
 </code></pre></div></li>
 <li><h3>Thumbnails generation</h3>
@@ -184,7 +196,7 @@ EXPORT_REGEXP = %r{^((d+) (story|comment|poll|pollopt) &quot;(.+)&quot; (d+) (?:
 <ul>
 <li>We use <a href="https://code.google.com/p/wkhtmltopdf/">wkhtmltoimage</a> to render the URLs and generate the associated thumbnails. Playing with connection timeouts and JavaScript infinite loops was a pleasure:</li>
 </ul>
-<div class="highlight"><pre><code class="language-text" data-lang="text">(timeout 60 xvfb-run --auto-servernum --server-args=&quot;-screen 0, 1024x768x24&quot; 
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>(timeout 60 xvfb-run --auto-servernum --server-args=&quot;-screen 0, 1024x768x24&quot; 
 wkhtmltoimage-amd64 --height 768 --use-xserver--javascript-delay 30000 &quot;$URL&quot; &quot;$FILE&quot; || 
 timeout 60 xvfb-run --auto-servernum --server-args=&quot;-screen 0, 1024x768x24&quot; 
 wkhtmltoimage-amd64 --height 768 --use-xserver --disable-javascript &quot;$URL&quot; &quot;$FILE&quot;) &amp;&amp; 
@@ -195,7 +207,7 @@ convert &quot;$FILE&quot; -resize &#39;100!x100&#39; &quot;$FILE&quot;
 <ul>
 <li>Thumbnails are resized and stored on a S3 bucket.</li>
 </ul>
-<div class="highlight"><pre><code class="language-text" data-lang="text">AWS::S3::S3Object.store(&quot;#{id}.png&quot;, open(temp_file), &#39;hnsearch&#39;, access: :public_read)
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>AWS::S3::S3Object.store(&quot;#{id}.png&quot;, open(temp_file), &#39;hnsearch&#39;, access: :public_read)
 </code></pre></div></li>
 <li><h3>Thumbnails distribution</h3>
 
@@ -208,7 +220,7 @@ convert &quot;$FILE&quot; -resize &#39;100!x100&#39; &quot;$FILE&quot;
 <li>We used the &quot;<a href="https://github.com/algolia/algoliasearch-rails">algoliasearch-rails</a>&quot; gem and a standard (Ruby on Rails) MySQL-backed ActiveRecord setup. Indexing is performed automatically as soon as new items are added to the database, providing a near-realtime experience.</li>
 </ul></li>
 <li><h3>Configuration</h3>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Item</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">class</span> <span class="nc">Item</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
   <span class="kp">include</span> <span class="no">AlgoliaSearch</span>
 
   <span class="n">algoliasearch</span> <span class="ss">per_environment</span><span class="p">:</span> <span class="kp">true</span> <span class="k">do</span>
@@ -294,7 +306,16 @@ open-sourced it</a>.</p>
     
       <li>
         <h3>
-          <a href="//2015/07/15/new-distributed-search-network-texas/">
+          <a href="/stfclv.github.io/2018/06/18/markdown-redcarpet-and-extensions/">
+            Markdown / Redcarpet and Extensions
+            <small>18 Jun 2018</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/stfclv.github.io/2015/07/15/new-distributed-search-network-texas/">
             Welcome Texas!
             <small>15 Jul 2015</small>
           </a>
@@ -303,18 +324,9 @@ open-sourced it</a>.</p>
     
       <li>
         <h3>
-          <a href="//2015/06/15/when-solid-state-drives-are-not-that-solid/">
+          <a href="/stfclv.github.io/2015/06/15/when-solid-state-drives-are-not-that-solid/">
             When Solid State Drives are not that solid
             <small>15 Jun 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="//2015/05/28/we-just-raised-our-series-a-whats-next/">
-            We just raised our Series A. What's next?
-            <small>28 May 2015</small>
           </a>
         </h3>
       </li>
@@ -331,10 +343,10 @@ open-sourced it</a>.</p>
 
   <script>
   window.ALGOLIA_CONFIG = {
-    'applicationId': 'latency',
-    'indexName': 'jekyll',
-    'apiKey': '6be0576ff61c053d5f9a3225e2a90f76',
-    'baseurl': '/'
+    'applicationId': 'Y467AE5IQA',
+    'indexName': 'jekyll_stfclv.github.io',
+    'apiKey': '',
+    'baseurl': '/stfclv.github.io'
   }
 </script>
 <script id="algolia__template" type="text/template">
@@ -356,7 +368,7 @@ open-sourced it</a>.</p>
 <script src="//cdn.jsdelivr.net/algoliasearch.helper/2.1.0/algoliasearch.helper.min.js"></script>
 <script src="//cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
 <script src="//cdn.jsdelivr.net/momentjs/2.10.3/moment.min.js"></script>
-<script src="//public/js/algolia.js"></script>
+<script src="/stfclv.github.io/public/js/algolia.js"></script>
 
   </body>
 </html>

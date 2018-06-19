@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>stf x clv</title>
- <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/atom.xml" rel="self"/>
- <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/"/>
- <updated>2018-06-18T10:29:44-04:00</updated>
- <id>https://github.com/algolia/algoliasearch-jekyll-hyde</id>
+ <title>stf &bull; out</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2018-06-18T23:04:19-04:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>Stephen Clairville</name>
    <email></email>
@@ -13,10 +13,23 @@
 
  
  <entry>
+   <title>Markdown / Redcarpet and Extensions</title>
+   <link href="http://localhost:4000/2018/06/18/markdown-redcarpet-and-extensions/"/>
+   <updated>2018-06-18T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2018/06/18/markdown-redcarpet-and-extensions</id>
+   <content type="html">&lt;p&gt;Redcarpet is a Ruby library for Markdown processing that smells like butterflies and popcorn.&lt;/p&gt;
+
+&lt;p&gt;Redcarpet was written by Vicent Martí. It is maintained by Robin Dupret and Matt Rogers.&lt;/p&gt;
+
+&lt;p&gt;Redcarpet would not be possible without the Sundown library and its authors (Natacha Porté, Vicent Martí, and its many awesome contributors).&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Welcome Texas!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2015/07/15/new-distributed-search-network-texas/"/>
+   <link href="http://localhost:4000/2015/07/15/new-distributed-search-network-texas/"/>
    <updated>2015-07-15T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2015/07/15/new-distributed-search-network-texas</id>
+   <id>http://localhost:4000/2015/07/15/new-distributed-search-network-texas</id>
    <content type="html">&lt;p&gt;You probably already know it: any millisecond that end-users have to wait to
 get their results drives us nuts. But what on Earth does this have to do with
 Texas? Actually a lot!&lt;/p&gt;
@@ -92,9 +105,9 @@ on the live chat.&lt;/p&gt;
  
  <entry>
    <title>When Solid State Drives are not that solid</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2015/06/15/when-solid-state-drives-are-not-that-solid/"/>
+   <link href="http://localhost:4000/2015/06/15/when-solid-state-drives-are-not-that-solid/"/>
    <updated>2015-06-15T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2015/06/15/when-solid-state-drives-are-not-that-solid</id>
+   <id>http://localhost:4000/2015/06/15/when-solid-state-drives-are-not-that-solid</id>
    <content type="html">&lt;p&gt;It looked just like another page in the middle of the night. One of the
 servers of our search API stopped processing the indexing jobs for an unknown
 reason. Since we build systems in Algolia for high availability and
@@ -341,9 +354,9 @@ recently blacklisted as 850 Pro and later in 8-series blacklist&lt;/p&gt;&lt;/li
  
  <entry>
    <title>We just raised our Series A. What's next?</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2015/05/28/we-just-raised-our-series-a-whats-next/"/>
+   <link href="http://localhost:4000/2015/05/28/we-just-raised-our-series-a-whats-next/"/>
    <updated>2015-05-28T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2015/05/28/we-just-raised-our-series-a-whats-next</id>
+   <id>http://localhost:4000/2015/05/28/we-just-raised-our-series-a-whats-next</id>
    <content type="html">&lt;p&gt;You may have heard last week in the &lt;a href=&quot;https://www.algolia.com/press&quot;&gt;press&lt;/a&gt;,
 Algolia has just raised an $18.3M Series A round of financing led by Accel
 Partners! Philippe Botteri from Accel is joining our board and we can&amp;#39;t wait
@@ -386,9 +399,9 @@ everywhere. Join us, it&amp;#39;s going to be fun!&lt;/p&gt;
  
  <entry>
    <title>DNS fallback for better resilience</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2015/05/11/dns-fallback-for-better-resilience/"/>
+   <link href="http://localhost:4000/2015/05/11/dns-fallback-for-better-resilience/"/>
    <updated>2015-05-11T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2015/05/11/dns-fallback-for-better-resilience</id>
+   <id>http://localhost:4000/2015/05/11/dns-fallback-for-better-resilience</id>
    <content type="html">&lt;p&gt;At Algolia, we are obsessed with finding a way to have a 99.9999% available
 architecture. On our way to achieve that, we have to make sure every piece of
 the architecture can safely fail without affecting the service.&lt;/p&gt;
@@ -474,9 +487,9 @@ our customers, their customers and us.&lt;/p&gt;
  
  <entry>
    <title>Modern JavaScript libraries: the isomorphic way</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2015/05/06/modern-javascript-libraries-the-isomorphic-way/"/>
+   <link href="http://localhost:4000/2015/05/06/modern-javascript-libraries-the-isomorphic-way/"/>
    <updated>2015-05-06T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2015/05/06/modern-javascript-libraries-the-isomorphic-way</id>
+   <id>http://localhost:4000/2015/05/06/modern-javascript-libraries-the-isomorphic-way</id>
    <content type="html">&lt;p&gt;Algolia&amp;#39;s DNA is really about performance. We want our search engine to answer
 relevant results as fast as possible.&lt;/p&gt;
 
@@ -914,9 +927,9 @@ make our JS client your best friend :)&lt;/p&gt;
  
  <entry>
    <title>Quadrant.io solves the frustration of economic data search with Algolia</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2015/04/20/quadrant-io-solves-the-frustration-of-economic-data-search-with-algolia/"/>
+   <link href="http://localhost:4000/2015/04/20/quadrant-io-solves-the-frustration-of-economic-data-search-with-algolia/"/>
    <updated>2015-04-20T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2015/04/20/quadrant-io-solves-the-frustration-of-economic-data-search-with-algolia</id>
+   <id>http://localhost:4000/2015/04/20/quadrant-io-solves-the-frustration-of-economic-data-search-with-algolia</id>
    <content type="html">&lt;p&gt;Browsing the cumbersome interfaces of government websites in the lookout for
 reliable data can be a very frustrating experience. It&amp;#39;s full of specific
 terminology and there&amp;#39;s not a government website that looks the same. It&amp;#39;s
@@ -978,9 +991,9 @@ developer !&amp;quot;&lt;/p&gt;
  
  <entry>
    <title>Don't let network latency ruin the search experience of your international users</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2015/02/18/distributed-search-network-latency-ruins-search-experience/"/>
+   <link href="http://localhost:4000/2015/02/18/distributed-search-network-latency-ruins-search-experience/"/>
    <updated>2015-02-18T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2015/02/18/distributed-search-network-latency-ruins-search-experience</id>
+   <id>http://localhost:4000/2015/02/18/distributed-search-network-latency-ruins-search-experience</id>
    <content type="html">&lt;p&gt;At Algolia, we allow developers to provide a unique interactive search
 experience with as-you-type search, instant faceting, mobile geo-search and on
 the fly spell check.&lt;/p&gt;
@@ -1061,9 +1074,9 @@ users&lt;/strong&gt;.&lt;/p&gt;
  
  <entry>
    <title>New experimental version of Hacker News Search built with Algolia</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2015/01/12/try-new-experimental-version-hn-search/"/>
+   <link href="http://localhost:4000/2015/01/12/try-new-experimental-version-hn-search/"/>
    <updated>2015-01-12T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2015/01/12/try-new-experimental-version-hn-search</id>
+   <id>http://localhost:4000/2015/01/12/try-new-experimental-version-hn-search</id>
    <content type="html">&lt;p&gt;Exactly a year ago, we began to power the Hacker News search engine (see our
 &lt;a href=&quot;http://blog.algolia.com/hacker-news-search-algolia/)&quot;&gt;blog post&lt;/a&gt;. Since then,
 our HN search project has grown a lot, expanding &lt;strong&gt;from 20M to 25M indexed
@@ -1217,9 +1230,9 @@ have in mind. We also love pull-requests :)&lt;/p&gt;
  
  <entry>
    <title>Github Awesome Autocomplete browser extension for Chrome and Firefox</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/12/23/christmas-gifthub-awesome-autocomplete/"/>
+   <link href="http://localhost:4000/2014/12/23/christmas-gifthub-awesome-autocomplete/"/>
    <updated>2014-12-23T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/12/23/christmas-gifthub-awesome-autocomplete</id>
+   <id>http://localhost:4000/2014/12/23/christmas-gifthub-awesome-autocomplete</id>
    <content type="html">&lt;p&gt;By working every day on building the best search engine, we&amp;#39;ve become obsessed
 with our own search experience on the websites and mobile applications we use.&lt;/p&gt;
 
@@ -1272,7 +1285,7 @@ East, Europe, Singapore, Australia &amp;amp; India.&lt;/p&gt;
 
 &lt;p&gt;We used GitHub&amp;#39;s Archive dataset to export top repositories and last active
 users using Google&amp;#39;s BigQuery:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;;; export repositories
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;;; export repositories
 SELECT
   a.repository_name as name,
   a.repository_owner as owner,
@@ -1347,9 +1360,9 @@ by step tutorials at
  
  <entry>
    <title>Search inside websites and mobile apps is strategic to engage visitors - Part 1</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/12/01/search-strategic-engage-visitors/"/>
+   <link href="http://localhost:4000/2014/12/01/search-strategic-engage-visitors/"/>
    <updated>2014-12-01T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/12/01/search-strategic-engage-visitors</id>
+   <id>http://localhost:4000/2014/12/01/search-strategic-engage-visitors</id>
    <content type="html">&lt;p&gt;In an economic environment where the competition for end-users’ attention and
 interest is fierce, overlooking search inside your website and mobile
 application may damage your business.&lt;/p&gt;
@@ -1445,9 +1458,9 @@ Google did for the Web, you now need to it for yourself!&lt;/strong&gt;&lt;/p&gt
  
  <entry>
    <title>FanFootage: Solving the Search problem with Algolia</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/12/01/fanfootage-solving-search-problem-algolia/"/>
+   <link href="http://localhost:4000/2014/12/01/fanfootage-solving-search-problem-algolia/"/>
    <updated>2014-12-01T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/12/01/fanfootage-solving-search-problem-algolia</id>
+   <id>http://localhost:4000/2014/12/01/fanfootage-solving-search-problem-algolia</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;The following post is a guest post by Eoin O&amp;#39;Driscoll (web developer), and Vinny Glennon (co-founder) of FanFootage.com&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/algoliasearch-jekyll-hyde/assets/vinny.png&quot; alt=&quot;vinny&quot;&gt;&lt;/p&gt;
@@ -1522,9 +1535,9 @@ It just works. And now we can focus on our own fanbase.&lt;/p&gt;
  
  <entry>
    <title>Black Thursday DNS issue</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/11/28/black-thursday-dns-issue/"/>
+   <link href="http://localhost:4000/2014/11/28/black-thursday-dns-issue/"/>
    <updated>2014-11-28T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/11/28/black-thursday-dns-issue</id>
+   <id>http://localhost:4000/2014/11/28/black-thursday-dns-issue</id>
    <content type="html">&lt;p&gt;Today we had a severe DNS issue that impacted some of our users during a total
 of 5 hours. Although most of our customers were not impacted, for some of them
 search simply went down. This event and its details deserved to be fully
@@ -1589,7 +1602,7 @@ we reached about 1,000 DNS queries per second that we started to receive our
 first complain about failed DNS resolution. This routing issue was not
 impacting all DNS resolutions but some of them were replying with a NXDOMAIN
 answer, the equivalent of a DNS &amp;quot;404 not found&amp;quot;.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ dig APPID-1.algolia.io`
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;$ dig APPID-1.algolia.io`
 ; &amp;lt;&amp;lt;&amp;gt;&amp;gt; DiG 9.9.5-4.3-Ubuntu &amp;lt;&amp;lt;&amp;gt;&amp;gt; APPID-1.algolia.io
 ;; global options: +cmd
 ;; Got answer:
@@ -1670,9 +1683,9 @@ own best practices, your comments are really welcome.&lt;/p&gt;
  
  <entry>
    <title>Jadopado delivers instasearch for mobile and web powered by Algolia</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/11/14/jadopado-delivers-instasearch-mobile-web-powered-algolia/"/>
+   <link href="http://localhost:4000/2014/11/14/jadopado-delivers-instasearch-mobile-web-powered-algolia/"/>
    <updated>2014-11-14T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/11/14/jadopado-delivers-instasearch-mobile-web-powered-algolia</id>
+   <id>http://localhost:4000/2014/11/14/jadopado-delivers-instasearch-mobile-web-powered-algolia</id>
    <content type="html">&lt;h2&gt;Algolia Increases Online Search Sessions By 60% and Unique Mobile Searches&lt;/h2&gt;
 
 &lt;p&gt;by 270%&lt;/p&gt;
@@ -1757,9 +1770,9 @@ visits through search from 8.2% to 11.3%.&lt;/strong&gt;&lt;/p&gt;
  
  <entry>
    <title>AfterShip Leverages Algolia's Search as a Service to Track 10 Million Packages Around The World</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/10/10/aftership-leverages-algolias-search-service-track-10-million-packages-around-world/"/>
+   <link href="http://localhost:4000/2014/10/10/aftership-leverages-algolias-search-service-track-10-million-packages-around-world/"/>
    <updated>2014-10-10T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/10/10/aftership-leverages-algolias-search-service-track-10-million-packages-around-world</id>
+   <id>http://localhost:4000/2014/10/10/aftership-leverages-algolias-search-service-track-10-million-packages-around-world</id>
    <content type="html">&lt;p&gt;Algolia Speeds Up Search Result Delivery Times From 10 Seconds To 250
 Milliseconds.The following post is a guest post by &lt;a href=&quot;http://hk.linkedin.com/in/teddychan/&quot;&gt;Teddy
 Chan&lt;/a&gt;, Founder and CEO at
@@ -1839,9 +1852,9 @@ grow with us as quickly as our business does.&lt;/p&gt;
  
  <entry>
    <title>Algolia opened its 4th datacenter is in California!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/09/01/4th-datacenter-california/"/>
+   <link href="http://localhost:4000/2014/09/01/4th-datacenter-california/"/>
    <updated>2014-09-01T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/09/01/4th-datacenter-california</id>
+   <id>http://localhost:4000/2014/09/01/4th-datacenter-california</id>
    <content type="html">&lt;p&gt;Do you know the 3 most important things in search? Speed, speed, and speed!&lt;/p&gt;
 
 &lt;p&gt;At Algolia, we work at making access to content and information completely
@@ -1863,9 +1876,9 @@ also available for enterprise users).&lt;/p&gt;
  
  <entry>
    <title>Concertwith.me's Competitive Edge: A Revamped Search UX with Algolia</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/08/28/concertwith-mes-competitive-edge-revamped-search-ux-algolia/"/>
+   <link href="http://localhost:4000/2014/08/28/concertwith-mes-competitive-edge-revamped-search-ux-algolia/"/>
    <updated>2014-08-28T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/08/28/concertwith-mes-competitive-edge-revamped-search-ux-algolia</id>
+   <id>http://localhost:4000/2014/08/28/concertwith-mes-competitive-edge-revamped-search-ux-algolia</id>
    <content type="html">&lt;p&gt;There are a lot of music discovery apps on the market, yet sifting through
 concert listings is anything but seamless. That&amp;#39;s why Cyprus-based startup
 &lt;a href=&quot;http://concertwith.me/&quot;&gt;Concertwith.me&lt;/a&gt; aims to make finding local concerts
@@ -1921,9 +1934,9 @@ competitive edge I was looking for.&amp;quot;&lt;/p&gt;
  
  <entry>
    <title>How Abacus Leverages Algolia for Realtime Expense Reporting</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/08/21/algolia-for-realtime-expense-reporting/"/>
+   <link href="http://localhost:4000/2014/08/21/algolia-for-realtime-expense-reporting/"/>
    <updated>2014-08-21T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/08/21/algolia-for-realtime-expense-reporting</id>
+   <id>http://localhost:4000/2014/08/21/algolia-for-realtime-expense-reporting</id>
    <content type="html">&lt;p&gt;When one thinks of expense reporting, speed is far from the first descriptor
 that comes to mind. Companies spend a substantial amount of time tracking
 expenses, while employees linger in paperwork purgatory, wondering when they
@@ -1968,9 +1981,9 @@ website._]&lt;a href=&quot;https://www.abacus.com&quot;&gt;3&lt;/a&gt;&lt;/p&gt;
  
  <entry>
    <title>Deploying Algolia to Search on more than 2 Million Products</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/07/11/deploying-algolia-search-2-million-products/"/>
+   <link href="http://localhost:4000/2014/07/11/deploying-algolia-search-2-million-products/"/>
    <updated>2014-07-11T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/07/11/deploying-algolia-search-2-million-products</id>
+   <id>http://localhost:4000/2014/07/11/deploying-algolia-search-2-million-products</id>
    <content type="html">&lt;p&gt;The following post is an interview of &lt;a href=&quot;fr.linkedin.com/pub/vincent-paulin/71/1a3/86a&quot;&gt;Vincent Paulin&lt;/a&gt;, R&amp;amp;D Manager at &lt;a href=&quot;http://www.alittlemarket.com/&quot;&gt;A Little
 Market&lt;/a&gt; (recently acquired by Etsy).&lt;/p&gt;
 
@@ -2069,9 +2082,9 @@ replaced our main search engine for a better solution thanks to Algolia.&amp;quo
  
  <entry>
    <title>Keeping Data in your Search Engine Up-to-Date</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/07/09/keeping-data-in-your-search-engine-up-to-date/"/>
+   <link href="http://localhost:4000/2014/07/09/keeping-data-in-your-search-engine-up-to-date/"/>
    <updated>2014-07-09T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/07/09/keeping-data-in-your-search-engine-up-to-date</id>
+   <id>http://localhost:4000/2014/07/09/keeping-data-in-your-search-engine-up-to-date</id>
    <content type="html">&lt;p&gt;When we developed the first version of Algolia Search, we put a lot of effort
 into developing a data update API. It worked like this: You could send us a
 modified version of your data as soon as the change appeared, even if it
@@ -2157,9 +2170,9 @@ our best to remove your pain!&lt;/p&gt;
  
  <entry>
    <title>Common Misperceptions about Search as a Service</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/06/05/popular-misperceptions-search-service/"/>
+   <link href="http://localhost:4000/2014/06/05/popular-misperceptions-search-service/"/>
    <updated>2014-06-05T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/06/05/popular-misperceptions-search-service</id>
+   <id>http://localhost:4000/2014/06/05/popular-misperceptions-search-service</id>
    <content type="html">&lt;p&gt;Since the first SaaS IPO by &lt;a href=&quot;http://www.salesforce.com/&quot;&gt;salesforce.com&lt;/a&gt;, the
 SaaS (Software as a Service) model has boomed in the last decade to become a
 global market that is worth billions today. It has taken a long way and a lot
@@ -2301,9 +2314,9 @@ eventually way more cost-efficient for you..&lt;/p&gt;
  
  <entry>
    <title>A New Way to Handle Synonyms in a Search Engine</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/05/22/synonym-search-engine/"/>
+   <link href="http://localhost:4000/2014/05/22/synonym-search-engine/"/>
    <updated>2014-05-22T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/05/22/synonym-search-engine</id>
+   <id>http://localhost:4000/2014/05/22/synonym-search-engine</id>
    <content type="html">&lt;p&gt;We recently added the support for Synonyms in Algolia! It has been the most
 requested feature in Algolia since our launch in September. While it may seem
 simple, it actually took us some time to implement because we wanted to do it
@@ -2367,9 +2380,9 @@ feature! Feel free to contact us at &lt;strong&gt;hey(at)algolia.com&lt;/strong&
  
  <entry>
    <title>Why JSONP is still Mandatory</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/05/14/jsonp-still-mandatory/"/>
+   <link href="http://localhost:4000/2014/05/14/jsonp-still-mandatory/"/>
    <updated>2014-05-14T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/05/14/jsonp-still-mandatory</id>
+   <id>http://localhost:4000/2014/05/14/jsonp-still-mandatory</id>
    <content type="html">&lt;p&gt;At Algolia, we are convinced that search queries need to be sent directly from
 the browser (or mobile app) to the search-engine in order to have a realtime
 search experience. This is why we have developed a search backend that replies
@@ -2393,7 +2406,7 @@ tag is allowed to load content from any domains without security restrictions.
 The targeted API needs to expose a HTTP GET endpoint and return Javascript
 code instead of the regular JSON data. You can use this jQuery code to
 dynamically call a JSONP URL:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getJSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;http://api.algolia.io/1/indexes/users?query=test&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;....&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getJSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;http://api.algolia.io/1/indexes/users?query=test&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;....&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;In order to retrieve the API answer from the newly included JavaScript code,
 jQuery automatically appends a callback argument to your URL (for example
@@ -2401,12 +2414,12 @@ jQuery automatically appends a callback argument to your URL (for example
 generates.&lt;/p&gt;
 
 &lt;p&gt;This is what a regular JSON reply would look like:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;quot;results&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Instead, the JSONP-compliant API generates:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;method12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;results&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...]});&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;method12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;results&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...]});&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Cross Origin Resource Sharing&lt;/h3&gt;
 
@@ -2422,7 +2435,7 @@ requested URL.&lt;/p&gt;
 lines are the last two headers that specify which permissions are checked. In
 this case, the method is POST and the three specific HTTP headers that are
 requested.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;OPTIONS http://latency.algolia.io/1/indexes/*/queries
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;OPTIONS http://latency.algolia.io/1/indexes/*/queries
 &amp;gt; Host: latency.algolia.io
 &amp;gt; Origin: http://demos.algolia.com
 &amp;gt; Accept-Encoding: gzip,deflate,sdch
@@ -2435,7 +2448,7 @@ requested.&lt;/p&gt;
 &amp;gt; Access-Control-Request-Method: POST
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The server reply will be similar to this one:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&amp;lt; HTTP/1.1 200 OK
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;&amp;lt; HTTP/1.1 200 OK
 &amp;lt; Server: nginx/1.6.0
 &amp;lt; Date: Tue, 13 May 2014 08:33:55 GMT
 &amp;lt; Content-Type: text/plain
@@ -2508,9 +2521,9 @@ scenarios. If you see any other way to do it, your feedback is very welcome.&lt;
  
  <entry>
    <title>Inside GrowthHackers.com's Implementation of Algolia</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/05/02/inside-growthhackers-implementation-of-algolia/"/>
+   <link href="http://localhost:4000/2014/05/02/inside-growthhackers-implementation-of-algolia/"/>
    <updated>2014-05-02T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/05/02/inside-growthhackers-implementation-of-algolia</id>
+   <id>http://localhost:4000/2014/05/02/inside-growthhackers-implementation-of-algolia</id>
    <content type="html">&lt;p&gt;We interviewed &lt;a href=&quot;https://twitter.com/dylanLaCom&quot;&gt;Dylan La Com&lt;/a&gt;, Growth Product
 Manager at &lt;a href=&quot;https://qualaroo.com&quot;&gt;Qualaroo&lt;/a&gt; &amp;amp;
 &lt;a href=&quot;http://growthhackers.com&quot;&gt;GrowthHackers.com&lt;/a&gt;, about their Algolia
@@ -2610,9 +2623,9 @@ search functionality throughout GrowthHackers.&lt;/p&gt;
  
  <entry>
    <title>Dealing with OpenSSL Heartbleed Vulnerability</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/04/09/dealing-openssl-security-issue/"/>
+   <link href="http://localhost:4000/2014/04/09/dealing-openssl-security-issue/"/>
    <updated>2014-04-09T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/04/09/dealing-openssl-security-issue</id>
+   <id>http://localhost:4000/2014/04/09/dealing-openssl-security-issue</id>
    <content type="html">&lt;p&gt;Yesterday, the OpenSSL project released an update to fix a serious security
 issue. This vulnerability was disclosed in &lt;a href=&quot;https://web.nvd.nis%0At.gov/view/vuln/detail?vulnId=CVE-2014-0160&quot;&gt;CVE-2014-0160&lt;/a&gt; and is more widely known as the
 &lt;a href=&quot;http://heartbleed.com/&quot;&gt;Heartbleed vulnerability&lt;/a&gt;. It allows an attacker to
@@ -2656,9 +2669,9 @@ potential threats that may be discovered.&lt;/p&gt;
  
  <entry>
    <title>Introducing Search Analytics: Know Your Users Better</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/03/29/introducing-algolias-search-analytics/"/>
+   <link href="http://localhost:4000/2014/03/29/introducing-algolias-search-analytics/"/>
    <updated>2014-03-29T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/03/29/introducing-algolias-search-analytics</id>
+   <id>http://localhost:4000/2014/03/29/introducing-algolias-search-analytics</id>
    <content type="html">&lt;p&gt;This week we have released a much requested feature by our customers:
 analytics.&lt;/p&gt;
 
@@ -2735,9 +2748,9 @@ to read your feedback and feature requests!&lt;/p&gt;
  
  <entry>
    <title>On HipChat's blog: Algolia extends HipChat to customer support</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/03/25/hipchats-blog-algolia-extends-hipchat-customer-support/"/>
+   <link href="http://localhost:4000/2014/03/25/hipchats-blog-algolia-extends-hipchat-customer-support/"/>
    <updated>2014-03-25T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/03/25/hipchats-blog-algolia-extends-hipchat-customer-support</id>
+   <id>http://localhost:4000/2014/03/25/hipchats-blog-algolia-extends-hipchat-customer-support</id>
    <content type="html">&lt;p&gt;As you may probably know, we&amp;#39;re using HipChat to build our live-help chat. If
 you want to know more, go ahead and read our &lt;a href=&quot;http://blog.hipchat.com/2014/03/25/algolia-extends-hipchat-to-customer-support/&quot;&gt;guest post on HipChat&amp;#39;s
 blog&lt;/a&gt;.&lt;/p&gt;
@@ -2751,9 +2764,9 @@ provide live customer service over chat.&lt;/p&gt;
  
  <entry>
    <title>Realtime Search: Security and our Javascript Client</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/03/18/handle-security-realtime-search/"/>
+   <link href="http://localhost:4000/2014/03/18/handle-security-realtime-search/"/>
    <updated>2014-03-18T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/03/18/handle-security-realtime-search</id>
+   <id>http://localhost:4000/2014/03/18/handle-security-realtime-search</id>
    <content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Edit: As suggested on &lt;a href=&quot;https://news.ycombinator.com/item?id=7419205&quot;&gt;Hacker
 News&lt;/a&gt;, SHA256 is not secure, as
 it allows a length extension attack. We have replaced it with HMAC-SHA256.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
@@ -2796,18 +2809,18 @@ Facebook or even Netflix). We decided to use these user IDs to solve these two
 issues by creating signed API keys. Let&amp;#39;s say you have an API key with search
 only permission and want to apply a filter on two groups of content (public OR
 power&lt;em&gt;users&lt;/em&gt;only) for a specific user (id=42):&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;api_key=20ffce3fdbf036db955d67645bb2c993
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;api_key=20ffce3fdbf036db955d67645bb2c993
 query_filters=(public,power_users_only)
 user_token=42
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;You can generate a secured API key in your backend that is defined by a hash
 (HMAC SHA 256) of three elements:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;secured_api_key=HMAC_SHA_256(api_key, query_filters + user_token)
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;secured_api_key=HMAC_SHA_256(api_key, query_filters + user_token)
 secured_api_key=HMAC_SHA_256(&amp;quot;20ffce3fdbf036db955d67645bb2c993&amp;quot;, &amp;quot;(public,power_users_only)&amp;quot; + &amp;quot;42&amp;quot;)
 secured_api_key=&amp;quot;3abb95c273455ce9b57c61ee5258ba44093f17022dd4bfb39a37e56bee7d24a5&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;For example, if you are using rails, the code in your backend would be:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;secured_key = Algolia.generate_secured_api_key(&amp;#39;20ffce3fdbf036db955d67645bb2c993&amp;#39;, &amp;#39;(public,power_users_only)&amp;#39;, &amp;#39;42&amp;#39;)
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;secured_key = Algolia.generate_secured_api_key(&amp;#39;20ffce3fdbf036db955d67645bb2c993&amp;#39;, &amp;#39;(public,power_users_only)&amp;#39;, &amp;#39;42&amp;#39;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;You can then initialize your JavaScript code with the secured API key and
 associated information:&lt;/p&gt;
@@ -2838,9 +2851,9 @@ love to hear your feedback!&lt;/p&gt;
  
  <entry>
    <title>What Caused Today's Search Performance Issues In Europe and Why It Will Not Happen Again</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/03/17/caused-todays-performance-issues-europe-will-happen/"/>
+   <link href="http://localhost:4000/2014/03/17/caused-todays-performance-issues-europe-will-happen/"/>
    <updated>2014-03-17T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/03/17/caused-todays-performance-issues-europe-will-happen</id>
+   <id>http://localhost:4000/2014/03/17/caused-todays-performance-issues-europe-will-happen</id>
    <content type="html">&lt;p&gt;During a few hours on March 17th you may have noticed longer response times
 for some of the queries sent by your users.&lt;/p&gt;
 
@@ -2894,9 +2907,9 @@ here for an example with our Ruby client: &lt;a href=&quot;https://github.com/al
  
  <entry>
    <title>Algolia Heroku add-on enters general availability</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/03/15/algolia-heroku-add-on-enters-ga/"/>
+   <link href="http://localhost:4000/2014/03/15/algolia-heroku-add-on-enters-ga/"/>
    <updated>2014-03-15T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/03/15/algolia-heroku-add-on-enters-ga</id>
+   <id>http://localhost:4000/2014/03/15/algolia-heroku-add-on-enters-ga</id>
    <content type="html">&lt;p&gt;We launched the first beta of our Heroku add-on in October 2013 and are now
 happy to announce its general availability!&lt;/p&gt;
 
@@ -2913,9 +2926,9 @@ know&lt;/a&gt; if you have any feedback!&lt;/p&gt;
  
  <entry>
    <title>Algolia Now Provides Realtime Search in Asia!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/03/14/added-asian-datacenter-offer/"/>
+   <link href="http://localhost:4000/2014/03/14/added-asian-datacenter-offer/"/>
    <updated>2014-03-14T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/03/14/added-asian-datacenter-offer</id>
+   <id>http://localhost:4000/2014/03/14/added-asian-datacenter-offer</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://blog.algolia.com/added-asian-%0Adatacenter-offer/screen-shot-2014-03-13-at-17-51-50/&quot;&gt;&lt;img src=&quot;/algoliasearch-jekyll-hyde/assets/Screen-Shot-2014-03-13-at-17.51.50-300x199.png&quot; alt=&quot;New datacenter allows realtime search in Asia&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;One of the terrific advantages of building a SaaS company is that your clients
@@ -2973,9 +2986,9 @@ accounts.&lt;/em&gt;&lt;/p&gt;
  
  <entry>
    <title>Introducing Easier Onboarding and Activation with Connectors</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/02/10/mongodb-and-sql-connectors/"/>
+   <link href="http://localhost:4000/2014/02/10/mongodb-and-sql-connectors/"/>
    <updated>2014-02-10T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/02/10/mongodb-and-sql-connectors</id>
+   <id>http://localhost:4000/2014/02/10/mongodb-and-sql-connectors</id>
    <content type="html">&lt;p&gt;Most of our users are &lt;strong&gt;technical&lt;/strong&gt;. They love writing code, and we love
 providing API clients in the major programming languages to them (we are
 currently &lt;a href=&quot;http://www.algolia.com/doc/apiclients)&quot;&gt;supporting 10 platforms&lt;/a&gt;.&lt;/p&gt;
@@ -3004,12 +3017,12 @@ just to try a service, so we decided to try something else.&lt;/p&gt;
 &lt;p&gt;90% of our users are using a SQL or MongoDB database. Exporting a table or a
 collection to a JSON file can be easy if you&amp;#39;re using a framework, for example
 Ruby on Rails:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;/tmp/export.json&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;w&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;/tmp/export.json&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;w&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;MyActiveRecordModel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_json&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;...or more annoying, for example when using PHP without any framework:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;x&quot;&gt;mysql_connect(&amp;#39;localhost&amp;#39;, &amp;#39;mysql_user&amp;#39;, &amp;#39;mysql_password&amp;#39;);&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;mysql_connect(&amp;#39;localhost&amp;#39;, &amp;#39;mysql_user&amp;#39;, &amp;#39;mysql_password&amp;#39;);&lt;/span&gt;
 &lt;span class=&quot;x&quot;&gt;mysql_set_charset(&amp;#39;utf8&amp;#39;);&lt;/span&gt;
 &lt;span class=&quot;x&quot;&gt;$results = array();&lt;/span&gt;
 &lt;span class=&quot;x&quot;&gt;$q = mysql_query(&amp;quot;SELECT * FROM YourTable&amp;quot;);&lt;/span&gt;
@@ -3024,7 +3037,7 @@ Ruby on Rails:&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Anyway, in both cases it gets harder if you want to export millions of rows
 without consuming hundreds GB of RAM. So you will need to use our API clients:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Algolia&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;YourIndex&amp;quot;&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Algolia&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;YourIndex&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;MyActiveRecordModel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_in_batches&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add_objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
@@ -3099,7 +3112,7 @@ our server. If you store the last modification date of a row in a field, you
 can use it in order to send all detected updates every 10 seconds. Every 5
 minutes, the connector synchronizes your database with the index by adding the
 new rows and removing the deleted ones.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;jdbc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;connector&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sh&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;jdbc:mysql://localhost/YourDB&amp;quot;&lt;/span&gt;  
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jdbc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;connector&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sh&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;jdbc:mysql://localhost/YourDB&amp;quot;&lt;/span&gt;  
   &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;username&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mysqlUser&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;password&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mysqlPassword&lt;/span&gt;             
   &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;selectQuery&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;SELECT * FROM YourTable&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;primaryField&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; 
   &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;updateQuery&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;SELECT * FROM YourTable WHERE updated_at &amp;gt; _$&amp;quot;&lt;/span&gt;
@@ -3107,7 +3120,7 @@ new rows and removing the deleted ones.&lt;/p&gt;
   &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;applicationId&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;YourApplicationId&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;apiKey&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;YourApiKey&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;YourIndexName&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;If you don&amp;#39;t have an updated_at  field, you can use:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;jdbc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;connector&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sh&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;jdbc:mysql://localhost/YourDB&amp;quot;&lt;/span&gt;  
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jdbc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;connector&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sh&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;jdbc:mysql://localhost/YourDB&amp;quot;&lt;/span&gt;  
   &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;username&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mysqlUser&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;password&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mysqlPassword&lt;/span&gt;             
   &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;selectQuery&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;SELECT * FROM YourTable&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;primaryField&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; 
   &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;applicationId&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;YourApplicationId&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;apiKey&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;YourApiKey&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;YourIndexName&lt;/span&gt;
@@ -3127,7 +3140,7 @@ Basically, you need to start your server with: mongod --replSet
 REPLICA&lt;em&gt;SET&lt;/em&gt;IDENTIFIER. Once started, the connector will replicate each
 addition/deletion/update to our server, sending a batch of operations every 10
 seconds.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;mongo-connector -m localhost:27017 -n myDb.myCollection 
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;mongo-connector -m localhost:27017 -n myDb.myCollection 
   -d ./doc_managers/algolia_doc_manager.py              
   -t YourApplicationID:YourApiKey:YourIndex
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -3147,9 +3160,9 @@ your feedback. Your feature requests are welcome!&lt;/p&gt;
  
  <entry>
    <title>Postmortem of today's 8min indexing downtime</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/01/29/postmortem-todays-8min-indexing-downtime/"/>
+   <link href="http://localhost:4000/2014/01/29/postmortem-todays-8min-indexing-downtime/"/>
    <updated>2014-01-29T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/01/29/postmortem-todays-8min-indexing-downtime</id>
+   <id>http://localhost:4000/2014/01/29/postmortem-todays-8min-indexing-downtime</id>
    <content type="html">&lt;p&gt;Today (Jan 29) at 9:30pm UTC, our service experienced an 8 minute partial
 outage during which we have rejected many write operations sent to the
 indexing API (exactly 2841 calls). We call it &amp;quot;partial&amp;quot; as all search queries
@@ -3220,9 +3233,9 @@ support!&lt;/p&gt;
  
  <entry>
    <title>Hacker News search: 6.5 million articles and comments at your fingertips</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/01/24/hacker-news-search-algolia/"/>
+   <link href="http://localhost:4000/2014/01/24/hacker-news-search-algolia/"/>
    <updated>2014-01-24T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/01/24/hacker-news-search-algolia</id>
+   <id>http://localhost:4000/2014/01/24/hacker-news-search-algolia</id>
    <content type="html">&lt;p&gt;We are &lt;a href=&quot;https://news.ycombinator.com&quot;&gt;Hacker News&lt;/a&gt; readers and probably just
 like you, there is not a day that goes by we don&amp;#39;t use it. It is a little like
 checking the weather app of the tech world. Long story short, Hacker News is
@@ -3256,7 +3269,7 @@ yourself right here: &lt;a href=&quot;http://hn.algolia.com/&quot;&gt;hn.algoli
 &lt;ul&gt;
 &lt;li&gt;YC provides us a private API access to fetch batches of 1000 items (an item being a comment or a post). Every two minutes, we update our database with the latest 1000 items. Last 48,000 items are refreshed every hour to keep the number of votes and comments up to date.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;# Yep, that&amp;#39;s a Lisp API :)
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;# Yep, that&amp;#39;s a Lisp API :)
 EXPORT_REGEXP = %r{^((d+) (story|comment|poll|pollopt) &amp;quot;(.+)&amp;quot; (d+) (?:nil|&amp;quot;(.*)&amp;quot;) (?:nil|&amp;quot;(.+)&amp;quot;) (?:nil|&amp;quot;(.*)&amp;quot;) (?:nil|-?(d+)) (?:nil|(([d ]+))) (?:nil|(d+)))$}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;h3&gt;Thumbnails generation&lt;/h3&gt;
@@ -3264,7 +3277,7 @@ EXPORT_REGEXP = %r{^((d+) (story|comment|poll|pollopt) &amp;quot;(.+)&amp;quot; 
 &lt;ul&gt;
 &lt;li&gt;We use &lt;a href=&quot;https://code.google.com/p/wkhtmltopdf/&quot;&gt;wkhtmltoimage&lt;/a&gt; to render the URLs and generate the associated thumbnails. Playing with connection timeouts and JavaScript infinite loops was a pleasure:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;(timeout 60 xvfb-run --auto-servernum --server-args=&amp;quot;-screen 0, 1024x768x24&amp;quot; 
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;(timeout 60 xvfb-run --auto-servernum --server-args=&amp;quot;-screen 0, 1024x768x24&amp;quot; 
 wkhtmltoimage-amd64 --height 768 --use-xserver--javascript-delay 30000 &amp;quot;$URL&amp;quot; &amp;quot;$FILE&amp;quot; || 
 timeout 60 xvfb-run --auto-servernum --server-args=&amp;quot;-screen 0, 1024x768x24&amp;quot; 
 wkhtmltoimage-amd64 --height 768 --use-xserver --disable-javascript &amp;quot;$URL&amp;quot; &amp;quot;$FILE&amp;quot;) &amp;amp;&amp;amp; 
@@ -3275,7 +3288,7 @@ convert &amp;quot;$FILE&amp;quot; -resize &amp;#39;100!x100&amp;#39; &amp;quot;$
 &lt;ul&gt;
 &lt;li&gt;Thumbnails are resized and stored on a S3 bucket.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;AWS::S3::S3Object.store(&amp;quot;#{id}.png&amp;quot;, open(temp_file), &amp;#39;hnsearch&amp;#39;, access: :public_read)
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;AWS::S3::S3Object.store(&amp;quot;#{id}.png&amp;quot;, open(temp_file), &amp;#39;hnsearch&amp;#39;, access: :public_read)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;h3&gt;Thumbnails distribution&lt;/h3&gt;
 
@@ -3288,7 +3301,7 @@ convert &amp;quot;$FILE&amp;quot; -resize &amp;#39;100!x100&amp;#39; &amp;quot;$
 &lt;li&gt;We used the &amp;quot;&lt;a href=&quot;https://github.com/algolia/algoliasearch-rails&quot;&gt;algoliasearch-rails&lt;/a&gt;&amp;quot; gem and a standard (Ruby on Rails) MySQL-backed ActiveRecord setup. Indexing is performed automatically as soon as new items are added to the database, providing a near-realtime experience.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;h3&gt;Configuration&lt;/h3&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Item&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Base&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Item&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Base&lt;/span&gt;
   &lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;AlgoliaSearch&lt;/span&gt;
 
   &lt;span class=&quot;n&quot;&gt;algoliasearch&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;per_environment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
@@ -3370,9 +3383,9 @@ open-sourced it&lt;/a&gt;.&lt;/p&gt;
  
  <entry>
    <title>Search Grader by Algolia: How does your search engine perform?</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/01/18/search-grader-engine-performing/"/>
+   <link href="http://localhost:4000/2014/01/18/search-grader-engine-performing/"/>
    <updated>2014-01-18T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/01/18/search-grader-engine-performing</id>
+   <id>http://localhost:4000/2014/01/18/search-grader-engine-performing</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://grader.algolia.com&quot;&gt;&lt;img src=&quot;/algoliasearch-jekyll-hyde/assets/Capture-decran-2014-01-24-01.26.08-600x150.png&quot; alt=&quot;algolia-search-grader&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2&gt;Search is important&lt;/h2&gt;
@@ -3483,9 +3496,9 @@ Grader&lt;/a&gt; by Algolia.&lt;/p&gt;
  
  <entry>
    <title>Improving Search for Twitter Handles</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2014/01/06/improving-ranking-twitter-handles-search/"/>
+   <link href="http://localhost:4000/2014/01/06/improving-ranking-twitter-handles-search/"/>
    <updated>2014-01-06T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2014/01/06/improving-ranking-twitter-handles-search</id>
+   <id>http://localhost:4000/2014/01/06/improving-ranking-twitter-handles-search</id>
    <content type="html">&lt;p&gt;Hello Twitter,&lt;/p&gt;
 
 &lt;p&gt;I have been using your service for awhile, and I love it!&lt;/p&gt;
@@ -3548,7 +3561,7 @@ finding &lt;a href=&quot;https://twitter.com/officialadele&quot;&gt;@OfficialAd
 &lt;li&gt;I used your &lt;a href=&quot;https://dev.twitter.com/docs/streaming-apis&quot;&gt;Streaming API&lt;/a&gt; to crawl about 20M+ accounts in ~2 weeks: it&amp;#39;s not blazing fast but I must admit it does the job (and it&amp;#39;s free). That&amp;#39;s about 5 lines of Ruby with &lt;a href=&quot;https://github.com/tweetstream/tweetstream&quot;&gt;TweetStream&lt;/a&gt;, good job guys!&lt;/li&gt;
 &lt;li&gt;and &lt;a href=&quot;https://github.com/bmc/daemonize&quot;&gt;Daemonize&lt;/a&gt; to create a bin/crawler executable.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#! /usr/bin/env ruby&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;ch&quot;&gt;#! /usr/bin/env ruby&lt;/span&gt;
 
 &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;expand_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dirname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;__FILE__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;..&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;config&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;environment&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 
@@ -3566,13 +3579,13 @@ finding &lt;a href=&quot;https://twitter.com/officialadele&quot;&gt;@OfficialAd
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;For each new tweet you send to me, I store the author (name + screen&lt;em&gt;name +
 description + followers&lt;/em&gt;count) and all his/her user mentions.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Handle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Base&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Handle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Base&lt;/span&gt;
 
   &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;create_from_user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Handle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_or_initialize_by&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;screen_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;screen_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;screen_name&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new_record?&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;followers_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;followers_count&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;updated_at&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;save&lt;/span&gt;
@@ -3595,7 +3608,7 @@ description + followers&lt;/em&gt;count) and all his/her user mentions.&lt;/p&gt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;And every minute, I re-index the last-updated accounts with a batch request
 using &lt;a href=&quot;https://github.com/algolia/algoliasearch-rails&quot;&gt;algoliasearch-rails&lt;/a&gt;,&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;every&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;roles&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:cron&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;every&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;roles&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:cron&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;runner&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Handle.where(&amp;#39;updated_at &amp;gt;= ?&amp;#39;, 1.minute.ago).reindex!&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -3614,7 +3627,7 @@ Limits&lt;/a&gt;. &lt;strong&gt;Instead, I chose to
 emphasize your top-users &lt;/strong&gt;(accounts having 10M+ followers).&lt;/p&gt;
 
 &lt;p&gt;Here is the configuration I used&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Handle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Base&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Handle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Base&lt;/span&gt;
 
   &lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;AlgoliaSearch&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;algoliasearch&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;per_environment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;auto_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;auto_remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
@@ -3679,9 +3692,9 @@ Search&lt;/a&gt;.&lt;/p&gt;
  
  <entry>
    <title>Our Search-as-a-Service offer has now 10 API Clients!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/07/18/our-search-as-a-service-offer-has-now-10-api-clients/"/>
+   <link href="http://localhost:4000/2013/07/18/our-search-as-a-service-offer-has-now-10-api-clients/"/>
    <updated>2013-07-18T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/07/18/our-search-as-a-service-offer-has-now-10-api-clients</id>
+   <id>http://localhost:4000/2013/07/18/our-search-as-a-service-offer-has-now-10-api-clients</id>
    <content type="html">&lt;p&gt;We recently reached a new milestone towards the release of our Search as a
 Service offer. We&amp;#39;re now proud to offer 10 API clients, covering all major
 languages.&lt;/p&gt;
@@ -3722,9 +3735,9 @@ testers:&lt;/p&gt;
  
  <entry>
    <title>Asian Language support in our Offline Search SDK 2.2</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/07/08/excellent-asian-languages-support-in-our-offline-search-sdk-2-2/"/>
+   <link href="http://localhost:4000/2013/07/08/excellent-asian-languages-support-in-our-offline-search-sdk-2-2/"/>
    <updated>2013-07-08T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/07/08/excellent-asian-languages-support-in-our-offline-search-sdk-2-2</id>
+   <id>http://localhost:4000/2013/07/08/excellent-asian-languages-support-in-our-offline-search-sdk-2-2</id>
    <content type="html">&lt;p&gt;Like most search engines, version 2.1 did not include any specific processing
 for Asian Languages. Version 2.2 significantly improves Asian language support
 (Chinese, Japanese, Korean) by including specific processing like the
@@ -3749,9 +3762,9 @@ version:&lt;/p&gt;
  
  <entry>
    <title>New iOS and OS X API clients for our Search-as-a-Service offer</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/06/24/check-out-the-new-iosos-x-clients-for-our-search-as-a-service-offer/"/>
+   <link href="http://localhost:4000/2013/06/24/check-out-the-new-iosos-x-clients-for-our-search-as-a-service-offer/"/>
    <updated>2013-06-24T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/06/24/check-out-the-new-iosos-x-clients-for-our-search-as-a-service-offer</id>
+   <id>http://localhost:4000/2013/06/24/check-out-the-new-iosos-x-clients-for-our-search-as-a-service-offer</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://blog.algolia.com/wp-%0Acontent/uploads/2013/06/objC.png&quot;&gt;&lt;img src=&quot;/algoliasearch-jekyll-hyde/assets/objC.png&quot; alt=&quot;Build new things with our iOS and OS X API
 client.&quot;&gt;&lt;/a&gt;One week after releasing our &lt;a href=&quot;http://blog.algolia.com/discover-our-new-java-android-search-as-a-service-api-clients-at-droidcon-paris/&quot;&gt;Java &amp;amp; Android
 clients&lt;/a&gt;, we are happy to release our &lt;a href=&quot;https://github.com/algolia/algoliasearch-client-objc&quot;&gt;iOS and
@@ -3791,9 +3804,9 @@ most welcome.&lt;/p&gt;
  
  <entry>
    <title>New Java & Android Search-as-a-Service API Clients at DroidCon Paris!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/06/17/discover-our-new-java-android-search-as-a-service-api-clients-at-droidcon-paris/"/>
+   <link href="http://localhost:4000/2013/06/17/discover-our-new-java-android-search-as-a-service-api-clients-at-droidcon-paris/"/>
    <updated>2013-06-17T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/06/17/discover-our-new-java-android-search-as-a-service-api-clients-at-droidcon-paris</id>
+   <id>http://localhost:4000/2013/06/17/discover-our-new-java-android-search-as-a-service-api-clients-at-droidcon-paris</id>
    <content type="html">&lt;p&gt;Our Search-as-a-Service offer is progressing toward its official release. We
 launched our &lt;a href=&quot;https://github.com/algolia/algoliasearch-client-java&quot;&gt;Java&lt;/a&gt; and
 &lt;a href=&quot;https://github.com/algolia/algoliasearch-client-android&quot;&gt;Android &lt;/a&gt;search API
@@ -3831,9 +3844,9 @@ most welcome.&lt;/p&gt;
  
  <entry>
    <title>Discover our 6 new Search-as-a-Service API Clients!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/05/28/discover-our-6-new-search-as-a-service-api-clients/"/>
+   <link href="http://localhost:4000/2013/05/28/discover-our-6-new-search-as-a-service-api-clients/"/>
    <updated>2013-05-28T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/05/28/discover-our-6-new-search-as-a-service-api-clients</id>
+   <id>http://localhost:4000/2013/05/28/discover-our-6-new-search-as-a-service-api-clients</id>
    <content type="html">&lt;p&gt;We &lt;a href=&quot;http://blog.algolia.com/our-saas-version-is-in-beta/&quot;&gt;launched the private beta&lt;/a&gt; of our Search-as-a-Service offer two months ago. In that time we
 received very positive feedback from our beta testers and we couldn&amp;#39;t thank
 them enough for the help they provided. To date, they have sent over 1M
@@ -3858,9 +3871,9 @@ most welcome.&lt;/p&gt;
  
  <entry>
    <title>Algolia Search Offline 2.1 is out!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/05/24/algolia-search-offline-2-1-is-out/"/>
+   <link href="http://localhost:4000/2013/05/24/algolia-search-offline-2-1-is-out/"/>
    <updated>2013-05-24T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/05/24/algolia-search-offline-2-1-is-out</id>
+   <id>http://localhost:4000/2013/05/24/algolia-search-offline-2-1-is-out</id>
    <content type="html">&lt;p&gt;We are pleased to introduce a new version of Algolia Search Offline for iOS,
 Android and OS X (Windows versions will come soon).&lt;/p&gt;
 
@@ -3868,7 +3881,7 @@ Android and OS X (Windows versions will come soon).&lt;/p&gt;
 Search. We are now confident we have the best relevance on the market. We will
 discuss our ranking approach compared to traditional methods in another post.
 For now, the two main improvements offered in this version are:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;* When the query string has one word that is the entire content of a field, we will display it first. You can try it with the &amp;quot;arm&amp;quot; query on our Crunchbase demonstration to get the idea: [http://bit.ly/searchcrunchbase](http://bit.ly/searchcrunchbase) (it uses the same relevance approach).
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;* When the query string has one word that is the entire content of a field, we will display it first. You can try it with the &amp;quot;arm&amp;quot; query on our Crunchbase demonstration to get the idea: [http://bit.ly/searchcrunchbase](http://bit.ly/searchcrunchbase) (it uses the same relevance approach).
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;More importance is given to proximity than to the order of attributes. For example, the query &amp;quot;managing p&amp;quot; will now match first &amp;quot;Managing Partner&amp;quot; in the &amp;quot;Title&amp;quot; attribute instead of &amp;quot;P&amp;quot; in the &amp;quot;Name&amp;quot; attribute followed by &amp;quot;Managing&amp;quot; in the &amp;quot;Title&amp;quot;. This is the case even if the order of the attributes is [&amp;quot;Name&amp;quot;, &amp;quot;Title&amp;quot;, ...].&lt;/li&gt;
@@ -3892,9 +3905,9 @@ benefit from these improvements by default.&lt;/p&gt;
  
  <entry>
    <title>Instant Search through the iOS App Store</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/05/21/instant-search-on-ios-app-store/"/>
+   <link href="http://localhost:4000/2013/05/21/instant-search-on-ios-app-store/"/>
    <updated>2013-05-21T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/05/21/instant-search-on-ios-app-store</id>
+   <id>http://localhost:4000/2013/05/21/instant-search-on-ios-app-store</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.algolia.com/demo/appstore/&quot;&gt;&lt;img src=&quot;/algoliasearch-jekyll-hyde/assets/appstore.jpg&quot; alt=&quot;App Store&quot;&gt;&lt;/a&gt;If
 you have an iOS device you probably search the App Store regularly for apps
 you have heard about. Following the recent AppGratis ousting from the
@@ -3925,7 +3938,7 @@ our full dataset ready for indexing.&lt;/p&gt;
 
 &lt;p&gt;Indexing was actually the easiest part. We uploaded the data in JSON format to
 our backend and used these simple settings:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;{
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;{
 &amp;quot;attributesToIndex&amp;quot;: [&amp;quot;name&amp;quot;, &amp;quot;author&amp;quot;, &amp;quot;category&amp;quot;],
 &amp;quot;attributesToHighlight&amp;quot;: [&amp;quot;name&amp;quot;, &amp;quot;author&amp;quot;,&amp;quot;category&amp;quot;, &amp;quot;description&amp;quot;],
 &amp;quot;customRanking&amp;quot;: [&amp;quot;desc(score)&amp;quot;, &amp;quot;asc(name)&amp;quot;]
@@ -3955,9 +3968,9 @@ to keep the data in sync.&lt;/p&gt;
  
  <entry>
    <title>Algolia Search Offline SDK now supports Cocoapods</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/04/25/algolia-search-offline-sdk-now-supports-cocoapods/"/>
+   <link href="http://localhost:4000/2013/04/25/algolia-search-offline-sdk-now-supports-cocoapods/"/>
    <updated>2013-04-25T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/04/25/algolia-search-offline-sdk-now-supports-cocoapods</id>
+   <id>http://localhost:4000/2013/04/25/algolia-search-offline-sdk-now-supports-cocoapods</id>
    <content type="html">&lt;p&gt;We have great news for our iOS and OS X users: our Offline SDK is now
 available as a &lt;em&gt;&lt;a href=&quot;http://www.cocoapods.org/&quot;&gt;CocoaPods&lt;/a&gt; &lt;/em&gt;dependency&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;
 
@@ -3984,9 +3997,9 @@ for iOS and OS X projects!&lt;/p&gt;
  
  <entry>
    <title>V2: Search by Geolocation in our Offline Search SDK</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/04/16/v2-our-new-offline-search-sdk-with-geo-search-and-other-features/"/>
+   <link href="http://localhost:4000/2013/04/16/v2-our-new-offline-search-sdk-with-geo-search-and-other-features/"/>
    <updated>2013-04-16T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/04/16/v2-our-new-offline-search-sdk-with-geo-search-and-other-features</id>
+   <id>http://localhost:4000/2013/04/16/v2-our-new-offline-search-sdk-with-geo-search-and-other-features</id>
    <content type="html">&lt;p&gt;While our latest news focused on the Algolia Search cloud offer (you can still
 join the &lt;a href=&quot;http://blog.algolia.com/our-saas-version-is-in-beta/)&quot;&gt;beta&lt;/a&gt;, we&amp;#39;re
 pleased to introduce a major new version of Algolia Search offline: V2! It is
@@ -4064,9 +4077,9 @@ the Algolia Search Offline SDK. &lt;a href=&quot;http://www.algolia.com/get-sta
  
  <entry>
    <title>Introducing a RubyMotion search gem by Algolia!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/04/16/algolia-search-is-now-available-for-rubymotion/"/>
+   <link href="http://localhost:4000/2013/04/16/algolia-search-is-now-available-for-rubymotion/"/>
    <updated>2013-04-16T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/04/16/algolia-search-is-now-available-for-rubymotion</id>
+   <id>http://localhost:4000/2013/04/16/algolia-search-is-now-available-for-rubymotion</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://blog.algolia.com/wp-%0Acontent/uploads/2013/04/rubymotion1.png&quot;&gt;&lt;img src=&quot;/algoliasearch-jekyll-hyde/assets/rubymotion1-270x300.png&quot; alt=&quot;Rubymotion search gem by Algolia is now
 live!&quot;&gt;&lt;/a&gt;If you are a Ruby developer and have
 an iPhone, chances are you already now about the cool project that is
@@ -4083,7 +4096,7 @@ iPad, all using the awesome Ruby language you know and love.&amp;quot;&lt;/p&gt;
 language to create iOS apps? That&amp;#39;s exactly what we propose with Algolia&amp;#39;s
 RubyMotion search gem that seamlessly integrates in your Ruby project. You
 know the trick:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt; 
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt; 
 gem &amp;#39;motion-algolia-search&amp;#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The gem code is open source. You can fork it from
@@ -4096,9 +4109,9 @@ gem &amp;#39;motion-algolia-search&amp;#39;
  
  <entry>
    <title>We are NEXT Berlin Finalists!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/04/11/we-are-finalists-at-next-berlin/"/>
+   <link href="http://localhost:4000/2013/04/11/we-are-finalists-at-next-berlin/"/>
    <updated>2013-04-11T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/04/11/we-are-finalists-at-next-berlin</id>
+   <id>http://localhost:4000/2013/04/11/we-are-finalists-at-next-berlin</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://nextberlin.eu/2013/04/next13-start-up-pitch-these-are-%0Athe-12-finalists/&quot;&gt;&lt;img src=&quot;/algoliasearch-jekyll-hyde/assets/NextBerlin-300x155.png&quot; alt=&quot;NEXT Berlin Finalists&quot;&gt;&lt;/a&gt;The &lt;a href=&quot;http://nextberlin.eu/&quot;&gt;NEXT Berlin Conference&lt;/a&gt; will
 take place on April 23rd &amp;amp; 24th in one of the most active entrepreneurial
 ecosystems in Europe!  More than 100 experts will share their knowledge with
@@ -4118,9 +4131,9 @@ to present Algolia to Berlin!&lt;/p&gt;
  
  <entry>
    <title>Instant Search on CrunchBase</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/03/26/instant-search-on-crunchbase/"/>
+   <link href="http://localhost:4000/2013/03/26/instant-search-on-crunchbase/"/>
    <updated>2013-03-26T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/03/26/instant-search-on-crunchbase</id>
+   <id>http://localhost:4000/2013/03/26/instant-search-on-crunchbase</id>
    <content type="html">&lt;p&gt;After launching the Beta Cloud version of Algolia, we wanted to demonstrate
 what it can do. We built a search engine using CrunchBase data, so
 entrepreneurs can easily search for their company or themselves. &lt;a href=&quot;http://www.algolia.com/demo/crunchbase/&quot;&gt;Check it
@@ -4197,7 +4210,7 @@ differentiate them.&lt;/p&gt;
 &lt;p&gt;For the order of attributes, we use {name, twitter, organization or people,
 description}. This translates into very simple settings. Here are the settings
 of the persons index, for example:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;{
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;{
   &amp;quot;attributesToIndex&amp;quot;: [&amp;quot;name&amp;quot;, &amp;quot;twitter&amp;quot;, &amp;quot;unordered(companies)&amp;quot;, &amp;quot;description&amp;quot;],
   &amp;quot;attributesToHighlight&amp;quot;: [&amp;quot;name&amp;quot;, &amp;quot;twitter&amp;quot;, &amp;quot;companies&amp;quot;, &amp;quot;description&amp;quot;],
   &amp;quot;customRanking&amp;quot;: [&amp;quot;desc(size)&amp;quot;, &amp;quot;asc(name)&amp;quot;]
@@ -4220,9 +4233,9 @@ what you think and send your suggestions: contact at algolia dot com&lt;/p&gt;
  
  <entry>
    <title>Online Search in the Cloud: Version is in Beta!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/03/18/our-saas-version-is-in-beta/"/>
+   <link href="http://localhost:4000/2013/03/18/our-saas-version-is-in-beta/"/>
    <updated>2013-03-18T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/03/18/our-saas-version-is-in-beta</id>
+   <id>http://localhost:4000/2013/03/18/our-saas-version-is-in-beta</id>
    <content type="html">&lt;p&gt;Imagine all the power and simplicity of Algolia Search, but available online,
 from any connected device. Welcome to our Cloud!&lt;/p&gt;
 
@@ -4242,9 +4255,9 @@ performance whatever the connectivity!&lt;/p&gt;
  
  <entry>
    <title>FREE Search SDK: Algolia is Now Available for Free!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/03/12/algolia-search-is-now-available-for-free/"/>
+   <link href="http://localhost:4000/2013/03/12/algolia-search-is-now-available-for-free/"/>
    <updated>2013-03-12T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/03/12/algolia-search-is-now-available-for-free</id>
+   <id>http://localhost:4000/2013/03/12/algolia-search-is-now-available-for-free</id>
    <content type="html">&lt;p&gt;Yes, you read that right! We&amp;#39;re not talking about a free trial, but of a
 completely FREE version of our SDK. It is often difficult to implement a good
 search experience, so we want to democratize access to easy-to-integrate and
@@ -4264,9 +4277,9 @@ advantage of this offer!&lt;/p&gt;
  
  <entry>
    <title>Round table at Microsoft TechDays 2013</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/02/19/round-table-at-microsoft-techdays-2013/"/>
+   <link href="http://localhost:4000/2013/02/19/round-table-at-microsoft-techdays-2013/"/>
    <updated>2013-02-19T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/02/19/round-table-at-microsoft-techdays-2013</id>
+   <id>http://localhost:4000/2013/02/19/round-table-at-microsoft-techdays-2013</id>
    <content type="html">&lt;p&gt;I had the pleasure to be invited by &lt;a href=&quot;https://twitter.com/deltakosh&quot;&gt;David
 Catuhe&lt;/a&gt; to participate in a round table about
 Windows8 development during &lt;a href=&quot;http://www.microsoft.com/france/mstechdays/&quot;&gt;Microsoft TechDays
@@ -4292,9 +4305,9 @@ covered Algolia in the IT press.&lt;/p&gt;
  
  <entry>
    <title>Meet us at the Mobile World Congress! - The Algolia Blog</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/02/19/meet-us-at-the-mobile-world-congress/"/>
+   <link href="http://localhost:4000/2013/02/19/meet-us-at-the-mobile-world-congress/"/>
    <updated>2013-02-19T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/02/19/meet-us-at-the-mobile-world-congress</id>
+   <id>http://localhost:4000/2013/02/19/meet-us-at-the-mobile-world-congress</id>
    <content type="html">&lt;p&gt;We&amp;#39;ll be in Barcelona next week for the Mobile World Congress! Last year, more
 than 67,000 attendees participated in the event.&lt;/p&gt;
 
@@ -4308,9 +4321,9 @@ coffee :) (@dessaigne on twitter, or nicolas at algolia dot com).&lt;/p&gt;
  
  <entry>
    <title>We ranked Second at Start In Paris!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/01/29/we-ranked-second-at-start-in-paris/"/>
+   <link href="http://localhost:4000/2013/01/29/we-ranked-second-at-start-in-paris/"/>
    <updated>2013-01-29T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/01/29/we-ranked-second-at-start-in-paris</id>
+   <id>http://localhost:4000/2013/01/29/we-ranked-second-at-start-in-paris</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.startinparis.com/&quot;&gt;Start In Paris&lt;/a&gt; is a monthly event where 5
 startups have the opportunity to pitch their service to the Paris startup
 community. After a first selection and then a public vote, we were selected as
@@ -4337,9 +4350,9 @@ last December. Congrat to them, they were truly excellent!&lt;/p&gt;
  
  <entry>
    <title>Sharypic benefits from Algolia Search!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/01/28/sharypic-benefits-from-algolia-search/"/>
+   <link href="http://localhost:4000/2013/01/28/sharypic-benefits-from-algolia-search/"/>
    <updated>2013-01-28T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/01/28/sharypic-benefits-from-algolia-search</id>
+   <id>http://localhost:4000/2013/01/28/sharypic-benefits-from-algolia-search</id>
    <content type="html">&lt;p&gt;Demonstrating how Algolia Search functions in the wild, in this post we will
 discuss a recent integration with &lt;a href=&quot;http://sharypic.com&quot;&gt;sharypic&lt;/a&gt;, another
 Paris-based startup focussed on photo sharing at events.&lt;/p&gt;
@@ -4385,9 +4398,9 @@ event!&lt;/em&gt;&lt;/p&gt;
  
  <entry>
    <title>Why Android APK Format is a Mistake</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/01/24/why-android-apk-format-is-a-terrible-mistake/"/>
+   <link href="http://localhost:4000/2013/01/24/why-android-apk-format-is-a-terrible-mistake/"/>
    <updated>2013-01-24T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/01/24/why-android-apk-format-is-a-terrible-mistake</id>
+   <id>http://localhost:4000/2013/01/24/why-android-apk-format-is-a-terrible-mistake</id>
    <content type="html">&lt;p&gt;When I started to develop for Android it appeared to me that an APK file was
 just an archive, a simple approach that you can find in many systems today.
 Files are extracted from the archive at installation and you can access them
@@ -4460,9 +4473,9 @@ from you!&lt;/p&gt;
  
  <entry>
    <title>Seedcamp: Tips and Advice From a Finalist - The Algolia Blog</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/01/15/seedcamp-tips-and-advice-from-a-finalist/"/>
+   <link href="http://localhost:4000/2013/01/15/seedcamp-tips-and-advice-from-a-finalist/"/>
    <updated>2013-01-15T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/01/15/seedcamp-tips-and-advice-from-a-finalist</id>
+   <id>http://localhost:4000/2013/01/15/seedcamp-tips-and-advice-from-a-finalist</id>
    <content type="html">&lt;p&gt;About one month ago, we were given the opportunity to participate in
 &lt;a href=&quot;http://www.seedcamp.com/&quot;&gt;Seedcamp&lt;/a&gt; Paris 2012. In this post I&amp;#39;ll try to
 think back to that time and provide feedback, along with some advice if you&amp;#39;re
@@ -4679,9 +4692,9 @@ startups to give it a go!&lt;/p&gt;
  
  <entry>
    <title>Android NDK: How to Reduce Binaries Size - The Algolia Blog</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2013/01/10/android-ndk-how-to-reduce-libs-size/"/>
+   <link href="http://localhost:4000/2013/01/10/android-ndk-how-to-reduce-libs-size/"/>
    <updated>2013-01-10T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2013/01/10/android-ndk-how-to-reduce-libs-size</id>
+   <id>http://localhost:4000/2013/01/10/android-ndk-how-to-reduce-libs-size</id>
    <content type="html">&lt;p&gt;When we started Algolia Development for Android, binary size optimization was
 not one of our main concerns. In fact we even started to develop in JAVA
 before switching to C/C++ for &lt;a href=&quot;http://blog.algolia.com/need-performance-on-mobile-use-c-cpp/&quot;&gt;reasons of performance&lt;/a&gt;.&lt;/p&gt;
@@ -4703,7 +4716,7 @@ completeness, I&amp;#39;ll cover this point too.&lt;/p&gt;
 &lt;p&gt;C++ exceptions and RTTI are disabled by default but you can enable them via
 &lt;em&gt;APP&lt;/em&gt;CPPFLAGS_ in your &lt;em&gt;Application.mk&lt;/em&gt; file and use a compatible STL, for
 example:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;APP_CPPFLAGS += -fexceptions -frtti
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;APP_CPPFLAGS += -fexceptions -frtti
 APP_STL := stlport_shared
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Whilst using exceptions and RTTI can help you to use existing code, it will
@@ -4713,7 +4726,7 @@ support is still far from perfect. For example if was impossible for us to
 catch a C++ exception and launch a Java exception in JNI. The following code
 results in a crash (will probably be fixed in a future release of the Android
 NDK toolchain):&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;try {
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;try {
     ...
 } catch (std::exception&amp;amp; e) {
     env-&amp;gt;ThrowNew(env-&amp;gt;FindClass(&amp;quot;java/lang/Exception&amp;quot;), &amp;quot;Error occured&amp;quot;);
@@ -4729,18 +4742,18 @@ minor changes.&lt;/p&gt;
 
 &lt;p&gt;By dichotomy search in our commits, we discovered that a single line of code
 was responsible for the inflation:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;std::cerr &amp;lt;&amp;lt; .... &amp;lt;&amp;lt; std::endl;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;std::cerr &amp;lt;&amp;lt; .... &amp;lt;&amp;lt; std::endl;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;As incredible as it may sound, using iostream increases a lot the binary size.
 Our tests shown that it adds a least 300KB per architecture! You must be very
 careful with iostream and prefer to use _&lt;em&gt;android&lt;/em&gt;log_print method:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;#include &amp;lt;android/log.h&amp;gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;#include &amp;lt;android/log.h&amp;gt;
 #define APPNAME &amp;quot;MyApp&amp;quot;
 
 __android_log_print(ANDROID_LOG_VERBOSE, APPNAME, &amp;quot;The value of 1 + 1 is %d&amp;quot;, 1+1);
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Make sure you also link against the logging library, in your Android.mk file:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;LOCAL_LDLIBS := -llog
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;LOCAL_LDLIBS := -llog
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Use -fvisibility=hidden&lt;/h3&gt;
 
@@ -4750,12 +4763,12 @@ control which functions will be exported in the symbols table. Hopefully, JNI
 comes with a &lt;em&gt;JNIEXPORT&lt;/em&gt; macro that flags JNI functions as public. You just
 have to check that all functions used by JNI are prefixed by JNIEXPORT, like
 this one:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;JNIEXPORT void JNICALL Java_ClassName_MethodName
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;JNIEXPORT void JNICALL Java_ClassName_MethodName
 (JNIEnv *env, jobject obj, jstring javaString)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Then you have just to add &lt;em&gt;-fvisibility=hidden&lt;/em&gt; for C and C++ files in
 &lt;em&gt;Android.mk&lt;/em&gt; file:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;LOCAL_CPPFLAGS += -fvisibility=hidden
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;LOCAL_CPPFLAGS += -fvisibility=hidden
 LOCAL_CFLAGS += -fvisibility=hidden
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;In our case the binaries were down to 809KB (-5%) but remember the gains may
@@ -4769,12 +4782,12 @@ tests.&lt;/p&gt;
 
 &lt;p&gt;To enable this feature, you just have to change the C and C++ compilation
 flags and the linker flags in &lt;em&gt;Android.mk&lt;/em&gt;:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;LOCAL_CPPFLAGS += -ffunction-sections -fdata-sections
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;LOCAL_CPPFLAGS += -ffunction-sections -fdata-sections
 LOCAL_CFLAGS += -ffunction-sections -fdata-sections 
 LOCAL_LDFLAGS += -Wl,--gc-sections
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Of course you can combine this feature with the visibility one:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;LOCAL_CPPFLAGS += -ffunction-sections -fdata-sections -fvisibility=hidden
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;LOCAL_CPPFLAGS += -ffunction-sections -fdata-sections -fvisibility=hidden
 LOCAL_CPPFLAGS += -ffunction-sections -fdata-sections -fvisibility=hidden
 LOCAL_CFLAGS += -ffunction-sections -fdata-sections  LOCAL_LDFLAGS += -Wl,--gc-sections
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -4789,12 +4802,12 @@ that this flag does not impact performance.&lt;/p&gt;
 
 &lt;p&gt;This option is not yet available on the mips architecture so you need to add
 an architecture check in &lt;em&gt;Android.mk&lt;/em&gt;:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;ifneq ($(TARGET_ARCH),mips)
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;ifneq ($(TARGET_ARCH),mips)
   LOCAL_LDFLAGS += -Wl,--icf=safe
 endif
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;And if you want to combine this option with gc-sections:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;ifeq ($(TARGET_ARCH),mips)
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;ifeq ($(TARGET_ARCH),mips)
   LOCAL_LDFLAGS += -Wl,--gc-sections
 else
   LOCAL_LDFLAGS += -Wl,--gc-sections,--icf=safe
@@ -4816,7 +4829,7 @@ of the toolchain. Flags are not identical accross architectures, for example:&lt
 &lt;p&gt;As arm is used by the large majority of devices, we have applied arm settings
 for other architectures. Here is the patch we applied on the toolchain
 (version r8d):&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;--- android-ndk-r8d/toolchains/mipsel-linux-android-4.6/setup.mk
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;--- android-ndk-r8d/toolchains/mipsel-linux-android-4.6/setup.mk
 +++ android-ndk-r8d.new/toolchains/mipsel-linux-android-4.6/setup.mk
 @@ -41,12 +41,12 @@
  TARGET_C_INCLUDES := 
@@ -4865,7 +4878,7 @@ today.&lt;/p&gt;
 
 &lt;p&gt;And if binary size is really important to you, you can just limit your support
 to armeabi and x86 architectures in &lt;em&gt;Application.mk&lt;/em&gt;:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;APP_ABI := armeabi x86
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;APP_ABI := armeabi x86
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Obviously, this optim was the killer one. Dropping two out of four
 architectures halved the binaries size. Overall we obtained a size of 307KB, a
@@ -4883,9 +4896,9 @@ you know other methods to reduce binary size, please share in the comments!&lt;/
  
  <entry>
    <title>Simplicity is the most Complex Feature!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/12/28/simplicity-is-the-most-complex-feature/"/>
+   <link href="http://localhost:4000/2012/12/28/simplicity-is-the-most-complex-feature/"/>
    <updated>2012-12-28T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/12/28/simplicity-is-the-most-complex-feature</id>
+   <id>http://localhost:4000/2012/12/28/simplicity-is-the-most-complex-feature</id>
    <content type="html">&lt;p&gt;I&amp;#39;ve been convinced for a long time that simplicity is the most important
 property of a product. Long-gone are the 90s when a product was admired for
 its complexity. But I am also convinced that this is the most complex property
@@ -4926,9 +4939,9 @@ war&lt;/a&gt;.&lt;/p&gt;
  
  <entry>
    <title>Never, Ever, Hinder the Use of your Products!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/12/21/never-ever-hinder-the-use-of-your-products/"/>
+   <link href="http://localhost:4000/2012/12/21/never-ever-hinder-the-use-of-your-products/"/>
    <updated>2012-12-21T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/12/21/never-ever-hinder-the-use-of-your-products</id>
+   <id>http://localhost:4000/2012/12/21/never-ever-hinder-the-use-of-your-products</id>
    <content type="html">&lt;p&gt;One of the worst user experiences I have ever had with software was with the
 Sony PS3. I kind of liked this product; I found the user interface very nice
 and well organized... but they were much too aggressive about upgrades! They
@@ -4959,9 +4972,9 @@ force them to do something they do not want to, like Sony did with the PS3.&lt;/
  
  <entry>
    <title>Algolia Search is now in Beta for Microsoft Windows 8 Desktops and Tablets - The Algolia Blog</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/12/20/windows-8-beta-is-out-algolia-search-now-available-for-microsoft-desktops-and-tablets/"/>
+   <link href="http://localhost:4000/2012/12/20/windows-8-beta-is-out-algolia-search-now-available-for-microsoft-desktops-and-tablets/"/>
    <updated>2012-12-20T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/12/20/windows-8-beta-is-out-algolia-search-now-available-for-microsoft-desktops-and-tablets</id>
+   <id>http://localhost:4000/2012/12/20/windows-8-beta-is-out-algolia-search-now-available-for-microsoft-desktops-and-tablets</id>
    <content type="html">&lt;p&gt;You may have been expecting Windows Phone 8 as our next platform of choice,
 but we preferred to go Windows 8 first! With more than 40M sold in a month,
 let&amp;#39;s say it&amp;#39;s a slightly more interesting market for now.&lt;/p&gt;
@@ -5027,9 +5040,9 @@ Search now!&lt;/p&gt;
  
  <entry>
    <title>Smart Contacts Demo Hits the App Store!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/12/13/our-smart-contacts-demo-hits-the-app-store/"/>
+   <link href="http://localhost:4000/2012/12/13/our-smart-contacts-demo-hits-the-app-store/"/>
    <updated>2012-12-13T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/12/13/our-smart-contacts-demo-hits-the-app-store</id>
+   <id>http://localhost:4000/2012/12/13/our-smart-contacts-demo-hits-the-app-store</id>
    <content type="html">&lt;p&gt;After going back and forth a few times with Apple, we are really happy to
 announce the availibility of our &lt;a href=&quot;https://itunes.apple.com/gb/app/algolia-smart-contact/id583433043&quot;&gt;Smart
 Contacts&lt;/a&gt;
@@ -5071,9 +5084,9 @@ develop!&lt;/p&gt;
  
  <entry>
    <title>We are SeedCamp Finalists!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/11/30/we-are-seedcamp-finalists/"/>
+   <link href="http://localhost:4000/2012/11/30/we-are-seedcamp-finalists/"/>
    <updated>2012-11-30T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/11/30/we-are-seedcamp-finalists</id>
+   <id>http://localhost:4000/2012/11/30/we-are-seedcamp-finalists</id>
    <content type="html">&lt;p&gt;Hey, we are thrilled to announce our nomination among the &lt;a href=&quot;http://www.rudebaguette.com/2012/11/30/here-are-the-20-startups-selected-for-seedcamp-paris/&quot;&gt;Seedcamp Paris
 finalists&lt;/a&gt;! The event will take place next week on Monday,
 just before &lt;a href=&quot;http://paris.leweb.co/&quot;&gt;LeWeb 2012&lt;/a&gt; (by the way we&amp;#39;ll be there,
@@ -5093,9 +5106,9 @@ advice&lt;/a&gt;
  
  <entry>
    <title>Why Autocomplete in Twitter Mobile App Sucks</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/11/29/why-autocomplete-in-twitter-on-mobile-sucks/"/>
+   <link href="http://localhost:4000/2012/11/29/why-autocomplete-in-twitter-on-mobile-sucks/"/>
    <updated>2012-11-29T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/11/29/why-autocomplete-in-twitter-on-mobile-sucks</id>
+   <id>http://localhost:4000/2012/11/29/why-autocomplete-in-twitter-on-mobile-sucks</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://blog.algolia.com/wp-%0Acontent/uploads/2012/11/ScreenshotTwitter.png&quot;&gt;&lt;img src=&quot;/algoliasearch-jekyll-hyde/assets/ScreenshotTwitter.png&quot; alt=&quot;A better Twitter mobile app experience with Algolia
 Search.&quot;&gt;&lt;/a&gt;Autocomplete is so
 intuitive,that it seems like it would be easy to implement. However, most
@@ -5137,9 +5150,9 @@ Search&lt;/a&gt;!&lt;/p&gt;
  
  <entry>
    <title>Algolia Search is Out!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/11/21/algolia-search-is-out/"/>
+   <link href="http://localhost:4000/2012/11/21/algolia-search-is-out/"/>
    <updated>2012-11-21T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/11/21/algolia-search-is-out</id>
+   <id>http://localhost:4000/2012/11/21/algolia-search-is-out</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://blog.algolia.com/wp-%0Acontent/uploads/2012/11/hand.jpg&quot;&gt;&lt;img src=&quot;/algoliasearch-jekyll-hyde/assets/hand-203x300.jpg&quot; alt=&quot;Now introducing Algolia Search&quot;&gt;&lt;/a&gt;After 4 betas and much priceless feedback, we
 are really excited to announce the release of Algolia Search! We launched it
 Monday during the 60th edition of &lt;a href=&quot;http://algolia.us5%0A.list-manage1.com/track/click?u=4cb821b85eca457f3c8a4df2f&amp;id=c46402f441&amp;e=df9a%0A44f8b5&quot;&gt;Mobile Monday Paris&lt;/a&gt;! If you don&amp;#39;t know what Algolia Search can do for your app, take a
@@ -5167,9 +5180,9 @@ course, to order the product! Check it out and let us know what you think!&lt;/p
  
  <entry>
    <title>The Ordeal of Obtaining an Apple Developer Professional Account</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/11/12/the-ordeal-of-obtaining-an-apple-developer-professional-account/"/>
+   <link href="http://localhost:4000/2012/11/12/the-ordeal-of-obtaining-an-apple-developer-professional-account/"/>
    <updated>2012-11-12T00:00:00-05:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/11/12/the-ordeal-of-obtaining-an-apple-developer-professional-account</id>
+   <id>http://localhost:4000/2012/11/12/the-ordeal-of-obtaining-an-apple-developer-professional-account</id>
    <content type="html">&lt;p&gt;I recently had a pretty bad user experience when I upgraded my personal Apple
 developer account into a professional one.&lt;/p&gt;
 
@@ -5217,9 +5230,9 @@ this lesson to ourselves. Feel free to tell us if something&amp;#39;s going wron
  
  <entry>
    <title>Painless integration, crystal clear documentation, please welcome Algolia Search beta 4!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/10/19/painless-integration-crystal-clear-documentation-please-welcome-algolia-search-beta-4/"/>
+   <link href="http://localhost:4000/2012/10/19/painless-integration-crystal-clear-documentation-please-welcome-algolia-search-beta-4/"/>
    <updated>2012-10-19T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/10/19/painless-integration-crystal-clear-documentation-please-welcome-algolia-search-beta-4</id>
+   <id>http://localhost:4000/2012/10/19/painless-integration-crystal-clear-documentation-please-welcome-algolia-search-beta-4</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://blog.algolia.com%0A/wp-content/uploads/2012/10/CitiesSuggestIPhone5Slide3.png&quot;&gt;&lt;img src=&quot;/algoliasearch-jekyll-hyde/assets/CitiesSuggestIPhone5Slide3-300x194.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Last month has been truly electrifying! We joined our friends at
@@ -5267,9 +5280,9 @@ and a few apps in the app store! Who said a contact app?&lt;/p&gt;
  
  <entry>
    <title>A few thoughts after Apps World</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/10/07/a-few-thoughts-after-apps-world/"/>
+   <link href="http://localhost:4000/2012/10/07/a-few-thoughts-after-apps-world/"/>
    <updated>2012-10-07T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/10/07/a-few-thoughts-after-apps-world</id>
+   <id>http://localhost:4000/2012/10/07/a-few-thoughts-after-apps-world</id>
    <content type="html">&lt;p&gt;Last week provided me with an occasion to feel the tempo of the mobile
 ecosystem at Apps World in London. Here are a few thoughts about what I saw.&lt;/p&gt;
 
@@ -5320,9 +5333,9 @@ months!&lt;/p&gt;
  
  <entry>
    <title>Upcoming Mobile App Conferences: Apps World, Mobility for Business, Appdays</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/09/28/upcoming-events-appsworld-mobility-for-business-appdays/"/>
+   <link href="http://localhost:4000/2012/09/28/upcoming-events-appsworld-mobility-for-business-appdays/"/>
    <updated>2012-09-28T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/09/28/upcoming-events-appsworld-mobility-for-business-appdays</id>
+   <id>http://localhost:4000/2012/09/28/upcoming-events-appsworld-mobility-for-business-appdays</id>
    <content type="html">&lt;p&gt;With the summer behind us, the period is pretty active. It&amp;#39;s really difficult
 to attend all the great events, big and small, organized out there. After
 &lt;a href=&quot;http://www.mobilemondayfrance.org/&quot;&gt;Mobile Monday&lt;/a&gt;,
@@ -5343,9 +5356,9 @@ discussion around mobile apps development!&lt;/p&gt;
  
  <entry>
    <title>Algolia Search Beta 3 is out!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/09/24/algolia-search-beta-3-is-out/"/>
+   <link href="http://localhost:4000/2012/09/24/algolia-search-beta-3-is-out/"/>
    <updated>2012-09-24T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/09/24/algolia-search-beta-3-is-out</id>
+   <id>http://localhost:4000/2012/09/24/algolia-search-beta-3-is-out</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://blog.algolia.com/wp-%0Acontent/uploads/2012/09/CitiesSuggestIOSPortraitSmall.png&quot;&gt;&lt;img src=&quot;/algoliasearch-jekyll-hyde/assets/CitiesSuggestIOSPortraitSmall-155x300.png&quot; alt=&quot;Algolia Search Beta 3&quot;&gt;&lt;/a&gt;We are pleased to
 announce Algolia Search Beta 3, our third release with a strong focus on
 performance.&lt;/p&gt;
@@ -5395,9 +5408,9 @@ always obtain &amp;quot;&lt;strong&gt;Ang&lt;/strong&gt;eles&amp;quot; which is 
  
  <entry>
    <title>Algolia Search Beta 2 is out!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/09/03/algolia-search-beta-2-is-out/"/>
+   <link href="http://localhost:4000/2012/09/03/algolia-search-beta-2-is-out/"/>
    <updated>2012-09-03T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/09/03/algolia-search-beta-2-is-out</id>
+   <id>http://localhost:4000/2012/09/03/algolia-search-beta-2-is-out</id>
    <content type="html">&lt;p&gt;We are pleased to announce the launch of Algolia Search Beta 2, our second
 release!&lt;/p&gt;
 
@@ -5434,9 +5447,9 @@ guys! Please continue your feedbacks!&lt;/p&gt;
  
  <entry>
    <title>Results of the Evernote DevCup</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/08/22/results-of-the-evernote-devcup/"/>
+   <link href="http://localhost:4000/2012/08/22/results-of-the-evernote-devcup/"/>
    <updated>2012-08-22T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/08/22/results-of-the-evernote-devcup</id>
+   <id>http://localhost:4000/2012/08/22/results-of-the-evernote-devcup</id>
    <content type="html">&lt;p&gt;Time flies! I just realized we didn&amp;#39;t offer any feedback about our
 participation in the Evernote DevCup back in July.&lt;/p&gt;
 
@@ -5470,9 +5483,9 @@ we&amp;#39;ll aim higher!&lt;/p&gt;
  
  <entry>
    <title>Algolia Search beta is out!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/08/16/algolia-search-beta-is-out/"/>
+   <link href="http://localhost:4000/2012/08/16/algolia-search-beta-is-out/"/>
    <updated>2012-08-16T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/08/16/algolia-search-beta-is-out</id>
+   <id>http://localhost:4000/2012/08/16/algolia-search-beta-is-out</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://blog.algolia.com/wp-%0Acontent/uploads/2012/08/searchForEvernoteSmall.png&quot;&gt;&lt;img src=&quot;/algoliasearch-jekyll-hyde/assets/searchForEvernoteSmall.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;After a few months in the
 making, our first mobile library is finally ready to hit the shelves! Well,
 nearly! Before releasing it, we want all the feedback you can give us to
@@ -5495,9 +5508,9 @@ to report bugs, request features, or anything beta related: beta@algolia.com&lt;
  
  <entry>
    <title>Free marketing @ WWDC 2012!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/08/01/free-marketing-wwdc2012/"/>
+   <link href="http://localhost:4000/2012/08/01/free-marketing-wwdc2012/"/>
    <updated>2012-08-01T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/08/01/free-marketing-wwdc2012</id>
+   <id>http://localhost:4000/2012/08/01/free-marketing-wwdc2012</id>
    <content type="html">&lt;p&gt;Let&amp;#39;s rewind time a bit. Back in June was the famous Apple Developer
 Conference, aka WWDC 2012. Algolia didn&amp;#39;t even have a website at that time,
 but what we did have is a friend who would attend:
@@ -5541,9 +5554,9 @@ for LeWeb in London, but that&amp;#39;s &lt;a href=&quot;http://blog.algolia.com
  
  <entry>
    <title>C/C++ is still the only way to have high performance on Mobile</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/07/24/need-performance-on-mobile-use-c-cpp/"/>
+   <link href="http://localhost:4000/2012/07/24/need-performance-on-mobile-use-c-cpp/"/>
    <updated>2012-07-24T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/07/24/need-performance-on-mobile-use-c-cpp</id>
+   <id>http://localhost:4000/2012/07/24/need-performance-on-mobile-use-c-cpp</id>
    <content type="html">&lt;p&gt;When it comes to programming languages and performance, you can read all and
 its opposite on the web. It&amp;#39;s definitely a very controversial topic!&lt;/p&gt;
 
@@ -5636,9 +5649,9 @@ Java/Objective-C optimizations as I did.&lt;/p&gt;
  
  <entry>
    <title>iOS: When Automatic Reference Counting is a Bad Idea</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/07/12/ios-when-arc-is-a-bad-idea/"/>
+   <link href="http://localhost:4000/2012/07/12/ios-when-arc-is-a-bad-idea/"/>
    <updated>2012-07-12T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/07/12/ios-when-arc-is-a-bad-idea</id>
+   <id>http://localhost:4000/2012/07/12/ios-when-arc-is-a-bad-idea</id>
    <content type="html">&lt;p&gt;I started developing for iOS in 2009 by learning about the Objective-C
 language. At that time ARC (Automatic Reference Counting) was not yet
 available and developers were responsible for alloc/release/autorelease. I
@@ -5659,7 +5672,7 @@ that just performs a swap between the two vectors. This code is perfectly
 valid and a swap is the perfect operation when you have two sets of data to
 maintain because this is very efficient (just two pointers copy, no data
 copy).&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;class Example {
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;class Example {
 public:
   Example() {
     nextPositions = new std::vector&amp;lt;int&amp;gt;();
@@ -5682,7 +5695,7 @@ private:
 };
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Before ARC the objective-C code was very similar and perfectly valid:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;// headers
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;// headers
 @interface Example : NSObject {
   NSMutableArray* nextPositions;
   NSMutableArray* currentPositions;
@@ -5721,7 +5734,7 @@ private:
 
 &lt;p&gt;So when you start using ARC you tend to do exactly the same thing with less
 code, and you just delete the dealloc method:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;// headers
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;// headers
 @interface Example : NSObject {
   NSMutableArray* nextPositions;
   NSMutableArray* currentPositions;
@@ -5760,7 +5773,7 @@ usage is a perfect example of wrong code that looks perfect but leads me to
 the conclusion that ARC is not trustworthy.&lt;/p&gt;
 
 &lt;p&gt;Here is the correct version:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;// headers
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;// headers
 @interface Example : NSObject {
   NSMutableArray* nextPositions;
   NSMutableArray* currentPositions;
@@ -5820,9 +5833,9 @@ products:&lt;/p&gt;
  
  <entry>
    <title>Search for Evernote: We're in the Evernote DevCup!</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/07/08/were-participating-to-the-evernote-devcup/"/>
+   <link href="http://localhost:4000/2012/07/08/were-participating-to-the-evernote-devcup/"/>
    <updated>2012-07-08T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/07/08/were-participating-to-the-evernote-devcup</id>
+   <id>http://localhost:4000/2012/07/08/were-participating-to-the-evernote-devcup</id>
    <content type="html">&lt;p&gt;You mint already be familiar with Evernote. It&amp;#39;s a great company that delivers
 an impressive product that I use often, both professionally and personally.
 When we heard about them organizing their second developer competition, we
@@ -5853,9 +5866,9 @@ You can also download the app directly from
  
  <entry>
    <title>Why develop our own Unicode Library? - The Algolia Blog</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/07/05/why-develop-our-own-unicode-library/"/>
+   <link href="http://localhost:4000/2012/07/05/why-develop-our-own-unicode-library/"/>
    <updated>2012-07-05T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/07/05/why-develop-our-own-unicode-library</id>
+   <id>http://localhost:4000/2012/07/05/why-develop-our-own-unicode-library</id>
    <content type="html">&lt;p&gt;At one time or another, most developers come across bugs or problems with
 Unicode (about 3,720,000 results on google for the request &lt;a href=&quot;http://www.google.com/search?q=unicode+bug+developer&quot;&gt;unicode bug
 developer&lt;/a&gt; at the time
@@ -5987,9 +6000,9 @@ contribute comments or ask for precisions.&lt;/p&gt;
  
  <entry>
    <title>Great discussions at LeWeb'12 London</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/07/03/great-discussions-at-leweb12-london/"/>
+   <link href="http://localhost:4000/2012/07/03/great-discussions-at-leweb12-london/"/>
    <updated>2012-07-03T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/07/03/great-discussions-at-leweb12-london</id>
+   <id>http://localhost:4000/2012/07/03/great-discussions-at-leweb12-london</id>
    <content type="html">&lt;p&gt;On June 19 &amp;amp; 20th, I had the chance to participate to &lt;a href=&quot;http://london.leweb.co/&quot;&gt;LeWeb 2012
 London&lt;/a&gt; edition. This year theme was &amp;quot;Faster than
 Real Time&amp;quot; and we had an impressive list of speakers! But the true value of
@@ -6041,9 +6054,9 @@ outweighs the longer integration code. We&amp;#39;ll now work on simplifying it!
  
  <entry>
    <title>Let's start the adventure</title>
-   <link href="https://github.com/algolia/algoliasearch-jekyll-hyde/2012/07/02/lets-start-the-adventure/"/>
+   <link href="http://localhost:4000/2012/07/02/lets-start-the-adventure/"/>
    <updated>2012-07-02T00:00:00-04:00</updated>
-   <id>https://github.com/algolia/algoliasearch-jekyll-hyde/2012/07/02/lets-start-the-adventure</id>
+   <id>http://localhost:4000/2012/07/02/lets-start-the-adventure</id>
    <content type="html">&lt;p&gt;Welcome to The Algolia Blog! It&amp;#39;s always difficult to write the first post of
 a blog! What should I talk about? The company, the founders, the business, the
 culture? And all that knowing that virtually nobody will read except diggers
