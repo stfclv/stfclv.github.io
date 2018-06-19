@@ -30,8 +30,8 @@ tagline:          'KB with instant search'
 description:      'My personal knowledge base, blog notes and thoughts on top of the popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde</a> &hearts; <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Made by <a href="https://twitter.com/stefun_" target="_blank">@stefun_</a>, Solutions Architect <a href="http://www.cloudera.com" target="_blank">@Cloudera</a>.</a>'
 url:              https://github.com/algolia/algoliasearch-jekyll-hyde
 #baseurl:          /algoliasearch-jekyll-hyde
-baseurl:	  '/stfclv.github.io'
-#baseurl:          '/'
+#baseurl:	  '/stfclv.github.io'
+baseurl:          '/'
 
 # Travis will install Bundler dependencies in ./vendor, so we need to exclude it
 # otherwise Jekyll will try to build it (and fail)
